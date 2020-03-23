@@ -1,4 +1,4 @@
-function [data, name, sim_spec, result] = kramer_IB_function_mode(sim_struct) % , simulation) %, varargin)
+function [data, name, sim_spec, result] = A1_OH_function_mode(sim_struct) % , simulation) %, varargin)
 
 if nargin < 1; sim_struct = []; end
 if isempty(sim_struct); sim_struct = struct; end
@@ -21,22 +21,22 @@ Today = datestr(datenum(date),'yy-mm-dd');
 % mkdir(Today);
 
 start_dir = pwd;
-kramer_IB_dir
+A1_OH_dir
 % if exist('project_folder', 'var')
 %     cd (project_folder)
 % elseif exist('research_folder', 'var')
 %     cd (research_folder)
 % end
 
-savepath = fullfile(pwd, 'Figs_Ben', Today);
+savepath = fullfile(pwd, 'Figs', Today);
 mkdir(savepath);
 
 Now = clock;
-name = sprintf('kramer_IB_%g_%g_%.4g', Now(4), Now(5), Now(6));
+name = sprintf('A1_OH_%g_%g_%.4g', Now(4), Now(5), Now(6));
 
 function_mode = 1;
 
-kramer_IB
+A1_OH
 
 unpack_sim_struct
 % vars_pull(sim_struct);
@@ -51,9 +51,9 @@ if exist('simulation', 'var')
     
 end
 
-include_kramer_IB_populations;
+include_A1_OH_populations;
 
-include_kramer_IB_synapses;
+include_A1_OH_synapses;
 
 solver
 
@@ -67,7 +67,7 @@ if ~exist('vary', 'var')
             'random_seed',random_seed,'verbose_flag',verbose_flag,'cluster_flag',cluster_flag,...
             'debug_flag',debug_flag,'compile_flag',compile_flag,...
             'analysis_functions',analysis_functions,'analysis_options',analysis_options,...
-            'overwrite_flag',1,'one_solve_file_flag',1,'qsub_mode',qsub_mode,...
+            'overwrite_flag',1,'one_solve_file_flag',0,'qsub_mode',qsub_mode,...
             'save_data_flag',save_data_flag,'study_dir',fullfile(savepath, name));
         
         cd (start_dir)

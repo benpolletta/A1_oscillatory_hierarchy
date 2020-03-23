@@ -320,9 +320,10 @@ end
 if include_RS && include_deepRS
     i=i+1;
     spec.connections(i).direction = 'deepRS->RS';
-    spec.connections(i).mechanism_list = {'IBaIBdbiSYNseed'};
+    spec.connections(i).mechanism_list = {'IBaIBdbiSYNseed','iNMDA'};
     spec.connections(i).parameters = {'g_SYN',gAMPA_deepRSRS,'E_SYN',EAMPA,'tauDx',tauAMPAd,...
         'tauRx',tauAMPAr,'fanout',inf,'IC_noise',0,'g_SYN_hetero',gsyn_hetero, ...
+        'gNMDA',5,'ENMDA',EAMPA,'tauNMDAr',tauNMDAr,'tauNMDAd',tauNMDAd ...
         };
 end
 
