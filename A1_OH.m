@@ -49,7 +49,7 @@ random_seed = 2;
 Now = clock;
 
 % % % % % Simulation controls
-dt=.01; solver='rk4'; 'euler'; % euler, rk2, rk4
+dt=.01; solver='rk4'; % 'euler'; % euler, rk2, rk4
 dsfact=max(round(0.1/dt),1); % downsample factor, applied after simulation
 
 % % % % % Simulation switches
