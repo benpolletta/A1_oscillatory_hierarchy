@@ -11,7 +11,7 @@ echo "Executing cd '"$1"', load(['"$2"', '_sim_spec.mat']), data = dsImportDataO
 
 module load matlab/2018a
 
-matlab -nosplash -nodisplay -r "Figs_Ben_dir, cd '$1', load(['$2', '_sim_spec.mat']),\
+matlab -nosplash -nodisplay -r "Figs_dir, cd '$1', load(['$2', '_sim_spec.mat']),\
     data = dsImportDataOrResults(name); try results = dsImportResults(name); catch results = []; end,\
     spike_locking_to_input_plot(data, results, name), make_PLV_pcolor_by_PPstim(name), exit"
 

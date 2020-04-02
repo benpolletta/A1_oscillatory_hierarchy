@@ -10,7 +10,7 @@ echo "Executing cd '"$1"', load(['"$2"', '_sim_spec.mat']),\
 
 module load matlab/2018a
 
-matlab -nosplash -nodisplay -r "Figs_Ben_dir, cd '$1', load(['$2', '_sim_spec.mat']),\
+matlab -nosplash -nodisplay -r "Figs_dir, cd '$1', load(['$2', '_sim_spec.mat']),\
  data = dsImportDataOrResults(name); spike_locking_to_input_plot(data, [], name,\
  'i_field', 'deepRS_iFMPulses_input', 'f_field', 'deepRS_FMPlowfreq', 'i_transform', 'hilbert');\
  spike_locking_to_input_plot(data, [], name, 'i_field', 'deepRS_iFMDistractors_input',\
