@@ -1,8 +1,44 @@
-function FI_plot(name, data, results)
+function FI_plot(name, data, results, varargin)
 
 if nargin < 3, results = []; end
 
 if nargin < 2, data = []; end
+
+i_field = 'deepRS_I_app';
+
+v_field = 'deepRS_V';
+
+figure_flag = 0;
+
+no_periods = 1;
+
+if ~isempty(varargin)
+    
+    for v = 1:(length(varargin)/2)
+        
+        switch varargin{2*v - 1}
+            
+            case 'i_field'
+                
+                i_field = varargin{2*v};
+                
+            case 'v_field'
+                
+                v_field = varargin{2*v};
+                
+            case 'figure_flag'
+                
+                figure_flag = varargin{2*v};
+                
+            case 'no_periods'
+                
+                no_periods = varargin{2*v};
+                
+        end
+        
+    end
+    
+end
 
 if isempty(results) && isempty(data)
     
@@ -20,7 +56,7 @@ if isempty(results) && isempty(data)
         
         data = dsImport(name);
         
-        results = dsAnalyze(data, @spike_metrics);
+        results = dsAnalyze(data, @spike_metrics, 'v_field', v_field, 'figure_flag', figure_flag, 'no_periods', no_periods);
 
         save([name, '_spike_metrics.mat'], 'results', 'name')
         
@@ -32,7 +68,7 @@ elseif isempty(data) && ~isempty(results)
     
 elseif isempty(results) && ~isempty(data)
     
-    results = dsAnalyze(data, @spike_metrics);
+    results = dsAnalyze(data, @spike_metrics, 'v_field', v_field, 'figure_flag', figure_flag, 'no_periods', no_periods);
     
     save([name, '_spike_metrics.mat'], 'results', 'name')
     
@@ -59,7 +95,7 @@ end
 % results = results(~cellfun(@isempty, results));
 
 F = [results.no_spikes]/(tspan/1000 - 1);
-I = [data.deepRS_I_app];
+I = [data.(i_field)];
 
 Freqs = cell(length(results), 1);
 
