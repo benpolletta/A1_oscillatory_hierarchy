@@ -13,7 +13,7 @@ jitter = 1000/Sfreq*.05; % in ms
 % Time series properties
 Tend = T(end); 	    % ms, max simulation duration
 dt = 0.01;        % ms, time step duration
-Sonset = 500;    % ms, onset time
+Sonset = 0;    % ms, onset time
 Soffset = Inf;   % ms, offset time
 
 kernel_type = 7;
@@ -23,6 +23,6 @@ psp = rhythmic_spike(tau_d,tau_r,Sfreq,Sshift,Tend,dt,Sonset,Soffset,Npop,inputs
 
 % Functions
 input(X) = psp(k,:)
-Ispike(X) = gSpike*input(X)*(X-Esyn)
+Ispike(X) = gSpike*input(X).*(X-Esyn)
 
 @current += -Ispike(X)
