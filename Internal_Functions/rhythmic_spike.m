@@ -14,7 +14,9 @@ no_spikes = length(spike_centers);
 jitters = randn([no_inputs, no_spikes])*jitter;
 spike_times = repmat(spike_centers, no_inputs, 1) + jitters;
 
-min_time = nanmin(nanmin(nanmin(spike_times)), 0); max_time = nanmax(nanmax(nanmax(spike_times)), Tend);
+min_time = nanmin(nanmin(nanmin(spike_times, [], 2), [], 1), 0); max_time = nanmax(nanmax(nanmax(spike_times, [], 2), [], 1), Tend);
+if mod(min_time, dt) ~= 0, min_time = min_time - mod(min_time, dt); end
+if mod(max_time, dt) ~= 0, max_time = max_time + (dt - mod(max_time, dt)); end
 
 all_time = min_time:dt:max_time;
 
