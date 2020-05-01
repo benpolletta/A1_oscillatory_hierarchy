@@ -1,0 +1,45 @@
+[0.0001] [5.0062]	B:	ألو السلام عليكم	>alaw Als~alaAmu Ealaykum
+[0.0001] [7.4437]	A:	(ضجة) (ضجة\) ألو شاخبارك	(Djp) (Djp\) >alaw $aAaxbaArak
+[5.0064] [12.9000]	B:	هلا تمام ماشي الحال	halaA tamaAm maA$iy AlHaAl
+[7.4439] [15.3750]	A:	(سعال) شعلومك (ضجة) شجاي تسوين ها (ضجة\)	(sEAl) $iEluwmiJ (Djp) $yaAy tsaw~iyn haA (Djp\)
+[12.9001] [18.7125]	B:	بلكي رقمكم ها (ضجة) بلكي رقمكم	balJiy raqumkam haA (Djp) balJiy raqumkam
+[15.3751] [22.4062]	A:	شجاي تسوين شجاي تسوين ها ها	$yaAy tsaw~iyn $yaAy tsaw~iyn haA haA
+[18.7126] [24.7125]	B:	ما أسوي شي أحسن (ضجة)	maA >asaw~iy $iy >aHsan (Djp)
+[22.4064] [30.8813]	A:	شاخبار عمانيات (ضجة) (ضجة) شسويتي (ضجة) ما طلعتي مكان (ضجة\)	$aAaxbaAr EumaAniy~aAt (Djp) (Djp) $saw~iytiy (Djp) maA TilaEtiy mukaAn (Djp\)
+[24.7126] [29.2688]	B:	الحمد لله	AlHamdi lil~ah
+[29.2689] [32.8125]	B:	ممكن على مكان	mumkin EalaY mukaAn
+[30.8814] [35.9250]	A:	ما (ضجة) رحتوا مهرجان مسقط (%أم) (%أم) (ضجة\)	maA (Djp) riHtuw mahrajaAn masqaT (%>m) (%>m) (Djp\)
+[32.8126] [37.9312]	B:	لا	la>
+[35.9251] [40.3875]	A:	كيف العيد (ضجة) (ضجة)	kayf AlEiyd (Djp) (Djp)
+[37.9314] [42.3937]	B:	زين	zayn
+[40.3876] [45.5625]	A:	العيد شنو سويتوا فيه (ضجة) (ضجة) (ضجة)	AlEiyd $uw saw~iytuw fiyh (Djp) (Djp) (Djp)
+[42.3939] [46.4438]	B:	شسوينا به بعد انزين ما سووا	$saw~aynaA biyh baEad Ainzayn maA saw~aw
+[45.5626] [52.1625]	A:	(ضجة) (%أه) (%أه)	(Djp) (%>h) (%>h)
+[46.4439] [54.1313]	B:	طيب لنا ساعتين	Tay~ib lnaA saAEtayn
+[52.1626] [59.6812]	A:	العيد حلو هو حلو حلو (ضجة) (%أم)	AlEiyd Hiluw huwaA Hiluw Hiluw (Djp) (%>m)
+[54.1314] [57.1313]	B:	ها	haA
+[57.1314] [62.2875]	B:	هلا هلا	halaA halaA
+[59.6814] [63.4312]	A:	شنو سويتي في المدرسة	$uw saw~iytiy fiy Almadrasap
+[62.2876] [66.2625]	B:	^سمية (ضجة) علي صوتك	^sumay~ap (Djp) Eal~iy Suwtkiy
+[63.4314] [71.3625]	A:	(%أم) (ضجة) (ضجة) (ضجة)	(%>m) (Djp) (Djp) (Djp)
+[66.2626] [70.5563]	B:	درسنا شوية وخلص	darasnaA $way~ap wuxalaS
+[70.5564] [74.5125]	B:		
+[71.3626] [76.0687]	A:	(ضجة) قليتوا لحم ^بعمان (تنفس) (ضجة)	(Djp) Galaytuw laHm ^bEumaAn (tnfs) (Djp)
+[74.5126] [81.3563]	B:	لا ما قلنا (تنفس) (ضحك) عن نفسي ما قلت شي	laA maA GulnaA (tnfs) (DHk) Ean nafsiy maA Guwlt $ay
+[76.0689] [80.1937]	A:	ها (ضجة) (ضجة\)	haA (Djp) (Djp\)
+[80.1939] [84.9188]	A:	ليش (ضجة) (ضجة\)	lay$ (Djp) (Djp\)
+[81.3564] [86.9625]	B:	ها	haA
+[84.9189] [90.0563]	A:	ليش بس ما تاكلين لحم (ضجة) (ضجة\)	lay$ bas maA taAkliyn laHam (Djp) (Djp\)
+[86.9626] [91.4062]	B:	لا (ضجة)	laA (Djp)
+[90.0564] [96.6937]	A:	(%أم) (ضجة) (تنفس) شاخبارك بعد (تنفس)	(%>m) (Djp) (tnfs) $aAaxbaAriJ baEad (tnfs)
+[91.4064] [95.4000]	B:	(ضجة)	(Djp)
+[95.4001] [100.2562]	B:	(ضجة) زينة	(Djp) zaynap
+[96.6939] [101.5687]	A:	انزين شسويتي (ضجة) عالم- المدرسة (ضجة)	<inzayn $saw~iytiy (Djp) EaAlma- Almadrasap (Djp)
+[100.2564] [106.2000]	B:	بخير (ضجة) ما سوينا شي (()) طالعة (ضجة\)	bxayr (Djp) maA saw~aynaA $ay (()) TaAlEap (Djp\)
+[101.5689] [104.8500]	A:	(%أم) (ضجة)	(%>m) (Djp)
+[104.8501] [111.4313]	A:	(ضجة) أيش درسوكم (ضجة) وبعد (ضجة)	(Djp) >ay$ dar~isawkum (Djp) wubaEad (Djp)
+[106.2001] [112.3500]	B:	(%إيه) تاريخ ورياضيات بس	(%<yh) taAriyx wurayaADiy~aAt bas
+[111.4314] [114.8250]	A:	(%أم) (سعال)	(%>m) (sEAl)
+[112.3501] [118.4625]	B:	بس وباقي الحصص تمينا فاضيين (%أه)	bas wubaAqiy AlHiSaS tam~aynaA faADyiyn (%>h)
+[114.8251] [121.0687]	A:	تاريخ تاريخ ما درسوكم	taAriyx taAriyx maA dar~isawkam
+[118.4626] [122.2500]	B:	درسونا	dar~asuwnaA

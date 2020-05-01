@@ -1,0 +1,43 @@
+body {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: black;
+    background: white;
+}
+
+p {
+    text-align: justify;
+}
+
+#leftMenu {
+    display: none;
+}
+
+#header img, #header a {
+    display: none;
+}
+
+#footer ul {
+    display: none;
+}
+
+a.back {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a[href^="http"]:not([href*="nist.gov/speech"]):after
+{
+	content: ' ('attr(href)') ';
+	font-style: italic;
+    font-size: 8px;
+}
+
+#lastUpdate {
+    font-size: 8px;
+    font-style: italic;
+}

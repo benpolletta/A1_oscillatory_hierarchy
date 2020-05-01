@@ -1,0 +1,50 @@
+/* Styled tags for metadata information */
+
+h4 {
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+.item {
+      padding : 0px 0px 7px 0px;
+      margin: 5px 0px 0px 0px;
+}
+
+table.data {
+	font-family : Arial, Helvetica, sans-serif;
+	border : 1px solid green;
+       	font-size: 0.9em;
+        width: 99%;
+}
+
+table.data th {
+	font-style : italic;
+	font-weight : bold;
+	text-align: left;
+	background-color : #eee;
+}
+
+table.data td {
+    text-align: left;
+}
+
+.center, table.data td.center {
+    text-align: center;
+}
+
+.delete {
+        color: lightgrey; 
+        font-style : italic;
+}
+
+.ok {color: #005500; }
+.ko {color: #990000; }
+
+.even_cell {
+    background-color: #eee;
+}
+
+.odd_cell {
+    background-color: white;
+}
+

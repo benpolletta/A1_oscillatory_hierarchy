@@ -1,0 +1,160 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+
+
+<html>
+
+<head>
+
+  <title>Mixer 6 Speech</title>
+  <meta http-equiv="Content-type" content="text/html/css;charset=UTF-8">
+  <meta name="description" content="Documentation Mixer 6 Speech">
+  <meta name="keywords" content="Linguistic Data Consortium">
+  <meta name="keywords" content="LDC">
+  <meta name="keywords" content="Documentation">
+  <meta name="keywords" content="Mixer 6 Speech">
+  <style type="text/css">
+  		body{
+  			background-color: #ffffff;
+  			color: #000000;
+  		}
+  		a:link{color : #990000;}
+  		a:visited{color:#990000;}
+  		a:active {color:#990000;}
+  		h1{
+			text-align:center;
+			color:#990000; 			
+  		}
+  		h3.subtitle{
+			text-align:center;
+			color:#990000;
+		}
+  		ul{
+  			line-height:130%;
+  		}
+  		p.cited{
+  			padding-left:2em;
+  			text-indent:-2em;
+  		}
+  		p.footer{
+  			font-size:0.85em;
+  		}
+  		
+  </style>
+</head>
+
+<body>
+
+    
+<h1>Mixer 6 Speech</h1>
+<h3 class="subtitle">LDC2013S03</h3>
+
+<h3>Introduction</h3>
+
+<p> Mixer 6 Speech, Linguistic Data Consortium (LDC) catalog number LDC2013S03 
+  and ISBN 1-58563-651-7, was developed by LDC and is comprised of 15,863 hours of 
+  telephone speech, interviews and transcript readings from 594 distinct native 
+  English speakers. This material was collected by LDC in 2009 and 2010 as part 
+  of the Mixer project, specifically phase 6, the focus of which was on native 
+  American English speakers local to the Philadelphia area. </p>
+<p>The speech data in this release was collected by LDC at its Human Subjects 
+  Collection facilities in Philadelphia. The telephone collection protocol was 
+  similar to other LDC telephone studies (e.g., Switchboard-2 Phase III Audio 
+  - <a href="http://www.ldc.upenn.edu/Catalog/catalogEntry.jsp?catalogId=LDC2002S06">LDC2002S06</a>): 
+  recruited speakers were connected through a robot operator to carry on casual 
+  conversations lasting up to 10 minutes, usually about a daily topic announced 
+  by the robot operator at the start of the call. The raw digital audio content 
+  for each call side was captured as a separate channel, and each full conversation 
+  was presented as a 2-channel interleaved audio file, with 8000 samples/second 
+  and u-law sample encoding. Each speaker was asked to complete 15 calls.</p>
+
+<p>The multi-microphone portion of the collection utilized 14 distinct microphones 
+  installed identically in two mutli-channel audio recording rooms at LDC. Each 
+  session was guided by collection staff using prompting and recording software 
+  to conduct the following activities: (1) repeat questions (less than one minute), 
+  (2) informal conversation (typically 15 minutes), (3) transcript reading (approximately 
+  15 minutes) and (4) telephone call (generally 10 minutes). Speakers recorded 
+  up to three 45-minute sessions on distinct days. The 14 channels were recorded 
+  synchronously into separate single-channel files, using 16-bit PCM sample encoding 
+  at 16000 samples/second.</p>
+<p>Certain demographic information about the speakers was collected, including 
+  date of birth, level of education, native language, other language capability, 
+  place of birth, place of residence and occupation.</p>
+
+<p>The recordings in this corpus were used in NIST Speaker Recognition Evaluation 
+(SRE) test sets for 2010 and 2012.  Researchers interested in applying those benchmark 
+test sets should consult the respective 
+<a href="http://nist.gov/itl/iad/mig/sre.cfm">NIST Evaluation Plans</a>
+for guidelines on allowable training data for those tests.</p>
+
+<h3>Data</h3>
+
+<p>The collection contains 4,410 recordings made via the public telephone network 
+  and 1,425 sessions of multiple microphone recordings in office-room settings. 
+  The telephone recordings are presented as 8-KHz 2-channel NIST SPHERE files, 
+  and the microphone recordings are 16-KHz 1-channel flac/ms-wav files. All audio 
+  files names indicate the date and time when the recording began, along with 
+  other identifying information, as follows:</p>
+<p>Telephone: {yyyymmdd}_{hrmnsc}_{callid}.sph</p>
+<p>Microphone: {yyyymmdd}_{hrmnsc}_{room}_{subjid}_CH{nn}.flac</p>
+
+<ul>
+<li>yyyymmdd is the year, month and date of recording.</li>
+<li>  hrmnsc is the hour, minute and second when recording began</li>
+<li>callid is a unique, incremental number assigned to each call</li>
+<li>  room is either "LDC" or "HRM", indicating which office was used</li>
+<li>  subjid is a numeric identifier assigned to the speaker</li>
+</ul>
+
+<p>When the flac files are uncompressed, they become ms-wav/RIFF files
+(flac compression does not presently support SPHERE file format).</p>
+
+<p>The telephone audio is presented in SPHERE format because (a) this is consistent 
+  with other telephone audio releases from LDC, and (b) flac does not support 
+  ulaw sample encoding. The current release of the open-source <a href="http://sox.sourceforge.net/">SoX</a> 
+  utility is able to handle both formats as input. Other utilities are available 
+  for both flac and SPHERE formats.</p>
+
+<h3>Directory Structure</h3>
+<p>Please see <a href="docs/file.tbl">file.tbl</a> for a complete file list as well 
+as checksums for this publication.</p>
+
+<ul>
+<li><a href="data/">data/</a> - Contains the audio files, subdivided by telephone 
+(ulaw_sphere) and microphone (pcm_flac).</li>
+<li><a href="docs/">docs/</a> - Contains additional documentation with more detailed information about the 
+	collection, calls and speakers.</li> 
+</ul>
+
+
+<h3>Updates</h3>   
+
+    <p>
+		Additional information, updates, bug fixes may be available in the LDC
+   	catalog entry for this corpus at <a
+    	href="http://www.ldc.upenn.edu/Catalog/CatalogEntry.jsp?catalogId=LDC2013S03">LDC2013S03</a>.
+    </p>
+
+
+    <h3>Content Copyright</h3>   
+<p>Portions &copy; 2009-2010, 2013 Trustees of the University of Pennsylvania</p>
+    <hr>
+
+	<p class="footer">
+    
+    Contact: <a href="mailto:ldc@ldc.upenn.edu">
+
+    <b>ldc@ldc.upenn.edu</b></a><br> &copy; 2013 <A
+    HREF="http://www.ldc.upenn.edu">
+
+    <b>Linguistic Data Consortium</b></a>,
+    <a href="http://www.upenn.edu">
+
+    <b>Trustees of the University of Pennsylvania</b></a>. All Rights Reserved.
+    </p>
+
+</body>
+</html>
+

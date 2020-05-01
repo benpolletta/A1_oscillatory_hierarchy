@@ -1,0 +1,140 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+
+
+<html>
+
+<head>
+
+  <title>RATS Speech Activity Detection</title>
+  <meta http-equiv="Content-type" content="text/html/css;charset=UTF-8">
+  <meta name="description" content="Documentation for RATS Speech Activity Detection">
+  <meta name="keywords" content="Linguistic Data Consortium">
+  <meta name="keywords" content="LDC">
+  <meta name="keywords" content="Documentation">
+  <meta name="keywords" content="RATS Speech Activity Detection">
+  <style type="text/css">
+  		body{
+  			background-color: #ffffff;
+  			color: #000000;
+  		}
+  		a:link{color : #990000;}
+  		a:visited{color:#990000;}
+  		a:active {color:#990000;}
+  		h1{
+			text-align:center;
+			color:#990000; 			
+  		}
+  		h3.subtitle{
+			text-align:center;
+			color:#990000;
+		}
+  		ul{
+  			line-height:130%;
+  		}
+  		p.cited{
+  			padding-left:2em;
+  			text-indent:-2em;
+  		}
+  		p.footer{
+  			font-size:0.85em;
+  		}
+		table, th, td
+		{
+			border-collapse:collapse;
+			border: 1px solid black;
+			padding: 1px 5px;
+			text-align:center;
+		}
+  		
+  </style>
+</head>
+
+<body>
+
+    
+<h1>RATS Speech Activity Detection</h1>
+<h3 class="subtitle">LDC2015S02</h3>
+
+<h3>Introduction</h3>
+
+<p>RATS Speech Activity Detection, Linguistic Data Consortium 
+  (LDC) Catalog Number LDC2015S02 and ISBN 1-58563-706-8, was developed by LDC 
+  and is comprised of approximately 3,000 hours of Levantine Arabic, English, Farsi,
+Pashto, and Urdu conversational telephone speech with automatic and manual annotation of speech segments. The corpus
+was created to provide training, development and initial test sets for the
+Speech Activity Detection (SAD) task in the DARPA RATS (Robust Automatic Transcription of Speech) program.</p>
+
+<p>The goal of the RATS program was to develop human language technology
+systems capable of performing speech detection, language
+identification, speaker identification and keyword spotting on the
+severely degraded audio signals that are typical of various radio
+communication channels, especially those employing various types of
+handheld portable transceiver systems. To support that goal, LDC assembled a system for the transmission, reception and digital capture of audio data that allowed a single source audio signal to be distributed and recorded over eight distinct transceiver configurations simultaneously. Those configurations included three frequencies -- high, very high and ultra high -- variously combined with amplitude modulation, frequency hopping spread spectrum, narrow-band frequency modulation, single-side-band or wide-band frequency modulation. Annotations on the clear source audio signal, e.g.,  time boundaries for the duration of speech activity,  were projected onto the corresponding eight channels recorded from the radio receivers.</p>
+    
+<h3>Data</h3>
+<p>The source audio  consists of
+conversational telephone speech  recordings collected by LDC: (1)  data collected for the RATS program from 
+Levantine Arabic, Farsi, Pashto and Urdu speakers; and (2)  material from the Fisher English  
+(<a href="https://catalog.ldc.upenn.edu/LDC2004S13">LDC2004S13</a>, 
+<a href="https://catalog.ldc.upenn.edu/LDC2005S13">LDC2005S13</a>),
+ and Fisher Levantine Arabic telephone studies 
+(<a href="https://catalog.ldc.upenn.edu/LDC2007S02">LDC2007S02</a>),
+as well as from CALLFRIEND Farsi
+(<a href="https://catalog.ldc.upenn.edu/LDC2014S01">LDC2014S01</a>).
+  </p>
+<p>Annotation was performed in three steps. LDC's automatic speech activity detector was run against the audio data to produce a speech segmentation for each file. Manual first pass annotation was then performed as a quick correction of the automatic speech activity detection output. Finally, in a manual second pass annotation step, annotators reviewed first pass output and made adjustments to segments as needed.</p>
+
+<p>All audio files are presented  as single-channel, 16-bit PCM,
+16000 samples per second; lossless FLAC compression is used on all
+files; when uncompressed, the files have typical "MS-WAV" (RIFF) file
+headers.</p>
+  
+<h3>Directory Structure</h3>
+<p>Please see <a href="docs/file.tbl">file.tbl</a> for a complete file list as well 
+as checksums for this publication.</p>
+
+<ul>
+<li><a href="data/">data/</a> - Contains audio and annotation files.</li>
+<li><a href="docs/">docs/</a> - Contains additional documentation, metadata and a file table.</li> 
+</ul>
+
+
+<h3>Updates</h3>   
+
+    <p>
+		Additional information, updates, bug fixes may be available in the LDC
+   	catalog entry for this corpus at <a
+    	href="http://www.ldc.upenn.edu/Catalog/CatalogEntry.jsp?catalogId=LDC2015S02">LDC2015S02</a>.
+    </p>
+
+<h3>Acknowledgment</h3>
+<p>This material is based upon work supported by the Defense Advanced
+Research Projects Agency (DARPA) under Contract No. D10PC20016.  The
+content does not necessarily reflect the position or the policy of the
+Government, and no official endorsement should be inferred.</p>
+    
+<h3>Content Copyright</h3>
+<p>Portions &copy; 2015 Trustees of the University 
+  of Pennsylvania</p>   
+
+
+    <hr>
+
+	<p class="footer">
+    
+    Contact: <a href="mailto:ldc@ldc.upenn.edu">
+
+    <b>ldc@ldc.upenn.edu</b></a><br> &copy; 2015 <A
+    HREF="http://www.ldc.upenn.edu">
+
+    <b>Linguistic Data Consortium</b></a>,
+    <a href="http://www.upenn.edu">
+
+    <b>Trustees of the University of Pennsylvania</b></a>. All Rights Reserved.
+    </p>
+
+</body>
+</html>

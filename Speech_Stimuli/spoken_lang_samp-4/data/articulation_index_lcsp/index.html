@@ -1,0 +1,126 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+
+
+<html>
+
+<head>
+
+  <title>Articulation Index LSCP</title>
+  <meta http-equiv="Content-type" content="text/html/css;charset=UTF-8">
+  <meta name="description" content="Documentation for Articulation Index LSCP">
+  <meta name="keywords" content="Linguistic Data Consortium">
+  <meta name="keywords" content="LDC">
+  <meta name="keywords" content="Documentation">
+  <meta name="keywords" content="Articulation Index LSCP">
+  <style type="text/css">
+  		body{
+  			background-color: #ffffff;
+  			color: #000000;
+  		}
+  		a:link{color : #990000;}
+  		a:visited{color:#990000;}
+  		a:active {color:#990000;}
+  		h1{
+			text-align:center;
+			color:#990000; 			
+  		}
+  		h3.subtitle{
+			text-align:center;
+			color:#990000;
+		}
+  		ul{
+  			line-height:130%;
+  		}
+  		p.cited{
+  			padding-left:2em;
+  			text-indent:-2em;
+  		}
+  		p.footer{
+  			font-size:0.85em;
+  		}
+		table, th, td
+		{
+			border-collapse:collapse;
+			border: 1px solid black;
+			padding: 1px 5px;
+			text-align:center;
+		}
+  		
+  </style>
+</head>
+
+<body>
+
+    
+<h1>Articulation Index LSCP</h1>
+<h3 class="subtitle">LDC2015S12</h3>
+
+<h3>Introduction</h3>
+
+<p>Articulation Index LSCP, Linguistic Data Consortium 
+(LDC) Catalog Number LDC2015S12 and ISBN 1-58563-735-1, was developed by researchers at <a href="http://www.lscp.net/index.php?lang=en">Laboratoire de Sciences Cognitives et Psycholinguistique (LSCP), Ecole Normale Supérieure</a>. It revises and enhances a subset of Articulation Index (AIC)
+  (<a href="https://catalog.ldc.upenn.edu/LDC2005S22">LDC2005S22</a>), a corpus of persons speaking English syllables. Changes include the addition of forced alignment to sound files, time alignment of syllable utterances and format conversions.</p>
+<p>AIC consists of 20 American English speakers (12 males, 8 females) pronouncing syllables,  some of which form actual words, but most of which are nonsense syllables. All possible Consonant-Vowel (CV) and Vowel-Consonant (VC) combinations were recorded for each speaker twice, once in isolation and once within a carrier-sentence, for a total of 25768 recorded syllables.</p>
+<h3>Data</h3>
+<p>Articulation Index LSCP alters AIC in the following ways.</p>
+<ol>
+  <li>Time-alignments for the onset and offset of each word and syllable were generated  through forced-alignment with a standard HMM-GMM (Hidden Markov Model-Gaussian Mixture Model) ASR system.</li>
+
+<li>The time-alignments for the beginning and end of the syllables (whether in isolation or within a carrier sentence) were manually adjusted. The time-alignments for the other words in carrier sentences were not manually adjusted.</li>
+
+<li>The recordings of isolated syllables were cut according to the manual time-alignments to remove the silent portions at the beginning and end, and the time-alignments were altered to correspond to the cut recordings.
+</li>
+<li>The file naming scheme  was slightly altered for compatibility with the <a href="http://kaldi.sourceforge.net/">Kaldi speech recognition toolkit</a>.
+</li>
+<li> AIC contains a wide-band (16 KHz, 16-bit PCM) and a narrow-band (8 KHz, 8 bit u-law) version of the recordings distributed in sphere format. The LSCP version contains the wide-band version only distributed as wave files. </li>
+
+</ol>
+
+<p>This release does not include certain AIC triphone recordings (CVC, CCV or VCC).</p>
+<p>Audio data is presented as 16kHz 16-bit flac compressed .wav files. The flac compression was added for distribution, and  documentation may  refer to the files as .wav files. </p>
+<h3>Directory Structure</h3>
+<p>Please see <a href="docs/file.tbl">file.tbl</a> for a complete file list as well 
+as checksums for this publication.</p>
+
+<ul>
+<li><a href="data/">data/</a> - Contains the audio data along with log information.</li>
+<li><a href="docs/">docs/</a> - Contains additional documentation and a file table.</li> 
+</ul>
+
+
+<h3>Updates</h3>   
+
+    <p>
+		Additional information, updates, bug fixes may be available in the LDC
+   	catalog entry for this corpus at <a
+    	href="http://catalog.ldc.upenn.edu/LDC2015S12">LDC2015S12</a>.
+    </p>
+
+    
+<h3>Content Copyright</h3>
+<p>Portions &copy; 2015 Tomas Bergvelt, Anna Kolesnikov, Xuan-Nga Cao, Thomas Schatz, 
+  Emmanuel Dupoux, 
+  &copy; 2015 Trustees of the University 
+  of Pennsylvania</p>   
+
+
+    <hr>
+
+	<p class="footer">
+    
+    Contact: <a href="mailto:ldc@ldc.upenn.edu">
+
+    <b>ldc@ldc.upenn.edu</b></a><br> &copy; 2015 <A
+    HREF="http://www.ldc.upenn.edu">
+
+    <b>Linguistic Data Consortium</b></a>,
+    <a href="http://www.upenn.edu">
+
+    <b>Trustees of the University of Pennsylvania</b></a>. All Rights Reserved.
+    </p>
+
+</body>
+</html>

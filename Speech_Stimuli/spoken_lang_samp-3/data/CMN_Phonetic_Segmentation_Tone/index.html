@@ -1,0 +1,118 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+
+
+<html>
+
+<head>
+
+  <title>Mandarin Chinese Phonetic Segmentation and Tone</title>
+  <meta http-equiv="Content-type" content="text/html/css;charset=UTF-8">
+  <meta name="description" content="Documentation for Mandarin Chinese Phonetic Segmentation and Tone">
+  <meta name="keywords" content="Linguistic Data Consortium">
+  <meta name="keywords" content="LDC">
+  <meta name="keywords" content="Documentation">
+  <meta name="keywords" content="Mandarin Chinese Phonetic Segmentation and Tone">
+  <style type="text/css">
+  		body{
+  			background-color: #ffffff;
+  			color: #000000;
+  		}
+  		a:link{color : #990000;}
+  		a:visited{color:#990000;}
+  		a:active {color:#990000;}
+  		h1{
+			text-align:center;
+			color:#990000; 			
+  		}
+  		h3.subtitle{
+			text-align:center;
+			color:#990000;
+		}
+  		ul{
+  			line-height:130%;
+  		}
+  		p.cited{
+  			padding-left:2em;
+  			text-indent:-2em;
+  		}
+  		p.footer{
+  			font-size:0.85em;
+  		}
+		table, th, td
+		{
+			border-collapse:collapse;
+			border: 1px solid black;
+			padding: 1px 5px;
+			text-align:center;
+		}
+  		
+  </style>
+</head>
+
+<body>
+
+    
+<h1>Mandarin Chinese Phonetic Segmentation and Tone</h1>
+<h3 class="subtitle">LDC2015S05</h3>
+
+<h3>Introduction</h3>
+
+<p>Mandarin Chinese Phonetic Segmentation and Tone, Linguistic Data Consortium 
+  (LDC) Catalog Number LDC2015S05 and ISBN 1-58563-710-6, was developed by LDC 
+  and contains 7,849 Mandarin Chinese "utterances" and their phonetic 
+  segmentation and tone labels separated into training and test sets. The utterances were derived from 1997 Mandarin  Broadcast News Speech and Transcripts (HUB4-NE) (<a href="https://catalog.ldc.upenn.edu/LDC98S73">LDC98S73</a> and <a href="https://catalog.ldc.upenn.edu/LDC98T24">LDC98T24</a>, respectively). That collection consists of approximately 30 hours of Chinese broadcast news recordings from Voice of America, China Central TV and KAZN-AM, a commercial radio station based in Los Angeles, CA.</p>
+<p>The ability to use large speech corpora for research in phonetics, sociolinguistics and psychology, among other fields, depends on the availability of phonetic segmentation and transcriptions. This corpus was developed to investigate the use of phone boundary models on forced alignment in Mandarin Chinese. Using the approach of embedded tone modeling (also used for incorporating tones for automatic speech recognition), the performance on forced alignment between tone-dependent and tone-independent models was compared. </p>
+
+  
+<h3>Data</h3>
+<p>Utterances were considered as the time-stamped between-pause units in the transcribed news recordings. Those with background noise, music, unidentified speakers and accented speakers were excluded. A test set was developed with 300 utterances randomly selected from six speakers (50 utterances for each speaker). The remaining 7,549 utterances formed a training set.</p>
+<p>The utterances in the test set were manually labeled and segmented into initials and finals in Pinyin, a Roman alphabet system for transcribing Chinese characters. Tones were marked on the finals, including Tone1 through Tone4, and Tone0 for the neutral tone. The Sandhi Tone3 was labeled as Tone2. The training set was   automatically segmented and transcribed using the LDC forced aligner, which is a  Hidden Markov Model (HMM)  aligner trained on the same utterances (Yuan et al. 2014). The aligner achieved 93.1% agreement (of phone boundaries) within 20 ms on the test set compared to manual segmentation. The quality of the phonetic transcription and tone labels of the training set was evaluated by checking 100 utterances randomly selected from it. The 100 utterances contained  1,252 syllables: 15 syllables had  mistaken tone transcriptions; two syllables showed mistaken transcriptions of the final, and there were no syllables with transcription errors on the initial.</p>
+<p>Each utterance has three associated files: a flac compressed wav file, a word 
+transcript file, and a phonetic boundaries and label file.</p>
+  
+<h3>Directory Structure</h3>
+<p>Please see <a href="docs/file.tbl">file.tbl</a> for a complete file list as well 
+as checksums for this publication.</p>
+
+<ul>
+<li><a href="data/">data/</a> - Contains the audio, transcripts and phonetic 
+boundaries and labels, subdivided by test and training.</li>
+<li><a href="docs/">docs/</a> - Contains additional documentation and a file table.</li> 
+</ul>
+
+<h3>Acknowledgement</h3>
+<p>This work was supported in part by National Science Foundation Grant No. IIS-0964556.</p>
+
+<h3>Updates</h3>   
+
+    <p>
+		Additional information, updates, bug fixes may be available in the LDC
+   	catalog entry for this corpus at <a
+    	href="http://www.ldc.upenn.edu/Catalog/CatalogEntry.jsp?catalogId=LDC2015S05">LDC2015S05</a>.
+    </p>
+    
+<h3>Content Copyright</h3>
+<p>Portions &copy; 1997 China Central TV, &copy; 1997 MultiCultural Broadcasting Corporation, &copy; 1997, 1998, 2007, 2015 Trustees of the University 
+  of Pennsylvania</p>   
+
+
+    <hr>
+
+	<p class="footer">
+    
+    Contact: <a href="mailto:ldc@ldc.upenn.edu">
+
+    <b>ldc@ldc.upenn.edu</b></a><br> &copy; 2015 <A
+    HREF="http://www.ldc.upenn.edu">
+
+    <b>Linguistic Data Consortium</b></a>,
+    <a href="http://www.upenn.edu">
+
+    <b>Trustees of the University of Pennsylvania</b></a>. All Rights Reserved.
+    </p>
+
+</body>
+</html>

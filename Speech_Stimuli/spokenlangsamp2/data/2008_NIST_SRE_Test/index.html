@@ -1,0 +1,172 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+
+<head>
+  <title>2008 NIST Speaker Recognition Evaluation Test Set</title>
+  <meta http-equiv="Content-type" content="text/html/css;charset=UTF-8">
+  <meta name="description" content="Documentation for 2008 NIST Speaker Recognition Evaluation Test Set">
+  <meta name="keywords" content="Linguistic Data Consortium">
+  <meta name="keywords" content="LDC">
+  <meta name="keywords" content="Documentation">
+  <meta name="keywords" content="2008 NIST Speaker Recognition Evaluation Test Set">
+  <style type="text/css">
+  		body{
+  			background-color: #ffffff;
+  			color: #000000;
+  		}
+  		a:link{color : #990000;}
+  		a:visited{color:#990000;}
+  		a:active {color:#990000;}
+  		h1{
+			text-align:center;
+			color:#990000; 			
+  		}
+  		h3.subtitle{
+			text-align:center;
+			color:#990000;
+		}
+  		ul{
+  			line-height:130%;
+  		}
+  		p.footer{
+  			font-size:0.85em;
+  		}
+  		
+  </style>
+</head>
+
+<body>
+
+    
+<h1> 2008 NIST Speaker Recognition Evaluation Test Set</h1>
+<h3 class="subtitle">LDC2011S08</h3>
+
+
+    <h3>Introduction</h3> 
+
+    
+<p>2008 NIST Speaker Recognition Evaluation Test Set, Linguistic Data 
+  Consortium (LDC) catalog number LDC2011S08 and ISBN 1-58563-594-4, was 
+  developed by LDC and NIST (National Institute of Standards and Technology). 
+  It contains 942 hours of multilingual telephone speech and English interview 
+  speech along with transcripts and other materials used as test data in the 
+  <a href="http://www.itl.nist.gov/iad/mig/tests/spk/2008/index.html"> 2008 NIST 
+  Speaker Recognition Evaluation (SRE)</a>. </p>
+<p>NIST SRE is part of an ongoing series of evaluations conducted by NIST. These evaluations 
+  are an important contribution to the direction of research efforts and the calibration 
+  of technical capabilities. They are intended to be of interest to all researchers 
+  working on the general problem of text independent speaker recognition. To this 
+  end the evaluation is designed to be simple, to focus on core technology issues, 
+  to be fully supported, and to be accessible to those wishing to participate.</p>
+     
+		
+<p>The 2008 evaluation was distinguished from prior evaluations, in particular 
+  those in 2005 and 2006, by including not only conversational telephone speech 
+  data but also conversational speech data of comparable duration recorded over 
+  a microphone channel involving an interview scenario.</p>
+  
+  <p>LDC previously released the 2008 NIST SRE Training Set in two parts as 
+  <a href="http://www.ldc.upenn.edu/Catalog/CatalogEntry.jsp?catalogId=LDC2011S05">LDC2011S05</a> and 
+  <a href="http://www.ldc.upenn.edu/Catalog/CatalogEntry.jsp?catalogId=LDC2011S07">LDC2011S07</a>.</p>
+
+    <p>Additional documentation is available at the
+    <a href="http://www.itl.nist.gov/iad/mig/tests/spk/2008/index.html">NIST web
+    site for the 2008 SRE</a> and within the <a href="docs/sre-08_evalplan-0408.doc">
+    2008 SRE Evaluation Plan</a>.</p>
+
+    <h3>Data</h3>    
+    
+<p>The speech data in this release was collected in 2007 by LDC at its <a href="http://www.ldc.upenn.edu/About/facilities.shtml"> 
+  Human Subjects Data Collection Laboratories</a> in Philadelphia and by the <a href="http://www.icsi.berkeley.edu/">International 
+  Computer Science Institute</a> (ICSI) at the University of California, Berkeley. 
+  This collection was part of the <a href="http://projects.ldc.upenn.edu/Mixer/"> 
+  Mixer 5</a> project, which was designed to support the development of robust 
+  speaker recognition technology by providing carefully collected and audited 
+  speech from a large pool of speakers recorded simultaneously across numerous 
+  microphones and in different communicative situations and/or in multiple languages. 
+  Mixer participants were native English and bilingual English speakers. The telephone 
+  speech in this corpus is predominantly English, but also includes the following 
+  languages: Arabic, Bengali, Chinese, Farsi, Hindi, Italian, Japanese, Korean, 
+  Lao, Punjabi, Russian Tagalog, Tamil, Thai, Urdu, Uzbek and Vietnamese. All 
+  interview segments are in English. Telephone speech represents approximately 
+  368 hours of the data, whereas microphone speech represents the other 574 hours.</p>
+
+<p>The telephone speech segments include two-channel excerpts of approximately 10 seconds and 5 minutes. 
+	There are also summed-channel excerpts in the range of 5 minutes. The microphone excerpts are either 3
+	or 8 minutes in length. As in prior evaluations, intervals of silence were not removed.</p>
+<p>English language transcripts in .cfm format were produced using an automatic 
+  speech recognition (ASR) system.</p>
+    
+    <h3>Directory Structure</h3>
+
+    <p>Please see <a href="docs/file.tbl">file.tbl</a> for a complete file list as well as checksums for
+      this publication</p>
+
+    <ul>
+	    <li><a href="data/">data/</a>
+	    	<ul>
+	    		
+      <li><a href="data/asr/test/">data/asr/test/</a> - This is the base path for the automatic 
+        speech recognition files. Any files containing little or no data accurately 
+        reflect the output of the energy based systems used to create them. Some 
+        channels are noisy and for this or other reasons may be difficult to process. It should 
+        also be noted that there are some ASR files that are unavailable. They are listed below. 
+      <li><a href="data/keys/">data/keys/</a> - This directory contains the several 
+        types of evaluation keys, split into subdirectories. 
+       <li><a href="data/test/data/">data/test/data/</a> - This directory contains 
+          the audio data for each of the test conditions, split into one subdirectory 
+          per condition.
+	    <li><a href="data/trials/">data/trials/</a> - This directory contains 13 index files, one for each of
+	    the evaluation tests.
+	    		
+      <li><a href="data/vad/">data/vad/</a> - This is the base path for the voice 
+        activity detection (VAD) files for use in evaluating whether a particular speaker is 
+        speaking or not. Any files containing little or no data accurately reflect the output 
+        of the energy based systems used to create them. Some channels are noisy and for this 
+        or other reasons may be difficult to process.
+	    	</ul>
+
+			<li><a href="docs/">docs/</a> - This directory contains the evaluation plan, 
+			 the headers for all files, a list of language codes used and file table.
+	    	
+    </ul>
+    
+    <p>The following sphere files do not have corresponding transcripts: eajwk, ebixg, edfyg, eeeaq, 
+		eejbf, efltb, ejypv, ekjri, enwxh, eoldk, epkzk, erqny, esjtq, evglf, ewjoc, exdrm, extri, eyczh, 
+		eyfvd, eyrep, fwwjx, gcjml and hxvag.</p>
+
+    
+  
+
+    <h3>Updates</h3>   
+
+    <p>
+		Additional information, updates, bug fixes may be available in the LDC
+   	catalog entry for this corpus at <a
+    	href="http://www.ldc.upenn.edu/Catalog/CatalogEntry.jsp?catalogId=LDC2011S08">LDC2011S08</a>.
+    </p>
+
+    <h3>Content Copyright</h3>   
+    
+<p> Portions &copy; 2007, 2011 Trustees of the University of Pennsylvania</p>
+    <hr>
+
+	<p class="footer">
+    
+    Contact: <a href="mailto:ldc@ldc.upenn.edu">
+
+    <b>ldc@ldc.upenn.edu</b></a><br> &copy; 2011 <A
+    HREF="http://www.ldc.upenn.edu">
+
+    <b>Linguistic Data Consortium</b></a>,
+    <a href="http://www.upenn.edu">
+
+    <b>Trustees of the University of Pennsylvania</b></a>. All Rights Reserved.
+    </p>
+
+</body>
+
+</html>
+

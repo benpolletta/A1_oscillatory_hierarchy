@@ -1,0 +1,197 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+
+<head>
+  <title>TORGO Database of Dysarthric Articulation</title>
+  <meta http-equiv="Content-type" content="text/html/css;charset=UTF-8">
+  <meta name="description" content="Documentation for TORGO Database of Dysarthric Articulation">
+  <meta name="keywords" content="Linguistic Data Consortium">
+  <meta name="keywords" content="LDC">
+  <meta name="keywords" content="Documentation">
+  <meta name="keywords" content="TORGO Database of Dysarthric Articulation">
+  <style type="text/css">
+  		body{
+  			background-color: #ffffff;
+  			color: #000000;
+  		}
+  		a:link{color : #990000;}
+  		a:visited{color:#990000;}
+  		a:active {color:#990000;}
+  		h1{
+			text-align:center;
+			color:#990000; 			
+  		}
+  		h3.subtitle{
+			text-align:center;
+			color:#990000;
+		}
+  		ul{
+  			line-height:130%;
+  		}
+  		p.footer{
+  			font-size:0.85em;
+  		}
+  		
+  </style>
+</head>
+
+<body>
+
+    
+<h1>TORGO Database of Dysarthric Articulation</h1>
+<h3 class="subtitle">LDC2012S02</h3>
+
+
+    <h3>Introduction</h3> 
+
+    
+<p>TORGO Database of Dysarthric Articulation, Linguistic Data Consortium (LDC) 
+  catalog number LDC2012S02 and ISBN 1-58563-603-7, was developed by the University 
+  of Toronto's departments of <a href="http://web.cs.toronto.edu/Page4.aspx">Computer 
+  Science </a> and <a href ="http://www.slp.utoronto.ca/Page13.aspx">Speech Language 
+  Pathology</a> in collaboration with the <a href="http://www.hollandbloorview.ca/">Holland-Bloorview 
+  Kids Rehabilitation Hospital</a> in Toronto, Canada. It contains approximately 
+  23 hours of English speech data, accompanying transcripts and documentation 
+  from 8 speakers (5 males, 3 females) with cerebral palsy (CP) or amyotrophic 
+  lateral sclerosis (ALS) and from 7 speakers (4 males, 3 females) from a non-dysarthric 
+  control group. </p>
+<p>CP and ALS are examples of dysarthria which is caused by disruptions in the 
+  neuro-motor interface that distort motor commands to the vocal articulators, 
+  resulting in atypical and relatively unintelligible speech in most cases. The 
+  TORGO database is primarily a resource for developing advanced automatic speaker 
+  recognition (ASR) models suited to the needs of people with dysarthria, but it 
+  is also applicable to non-dysarthric speech. The inability of modern ASR to 
+  effectively understand dysarthric speech is a problem since the more general 
+  physical disabilities often associated with the condition can make other forms 
+  of computer input, such as computer keyboards or touch screens, difficult to 
+  use. </p>
+
+
+<h3>Data</h3>
+<p>The data consists of aligned acoustics and measured 3D articulatory features 
+  from the speakers carried out using the <a href="http://www.articulograph.de/">3D 
+  AG500 electro-magnetic articulograph</a> (EMA) system (Carstens Medizinelektronik 
+  GmbH, Lenglern, Germany) with fully-automated calibration. This system allows 
+  for 3D recordings of articulatory movements inside and outside the vocal tract, 
+  thus providing a detailed window on the nature and direction of speech-related 
+  activity.</p>
+<p>The data was collected between 2008 and 2010 in Toronto, Canada. All subjects 
+  read text consisting of non-words, short words and restricted sentences from 
+  a 19-inch LCD screen. The restricted sentences included 162 sentences from the 
+  sentence intelligibility section of <em>Assessment of intelligibility of dysarthric 
+  speech</em> (Yorkston &amp; Beukelman, 1981) and 460 sentences derived from 
+  the <a href="http://www.ldc.upenn.edu/Catalog/catalogEntry.jsp?catalogId=LDC93S1">TIMIT</a> 
+  database. The unrestricted sentences were elicited by asking participants to 
+  spontaneously describe 30 images in interesting situations taken randomly from 
+  <em>Webber Photo Cards - Story Starters</em> (Webber, 2005), designed to prompt 
+  students to tell or write a story.</p>
+<p>Data is organized by speaker and by the session in which each speaker recorded 
+  data. Each speaker was assigned a code and given their own file directory. The 
+  code for female speakers begins with 'F', and the code for male speakers begins 
+  with 'M'. If the speaker was a member of the control group, the letter 'C' follows 
+  the gender code. The last two digits of the code indicate the order in which 
+  that subject was recruited. For example, speaker 'FC02' was the second female 
+  speaker without dysarthria recruited. Note that some speakers were intentionally 
+  left out of the data, and thus, there are gaps in the numbering.</p>
+<p>Each speaker's directory contains 'Session' directories which encapsulate data 
+  recorded in the respective visit and occasionally, a 'Notes' directory which 
+  can include Frenchay assessments (test for the measurement, description and 
+  diagnosis of dysarthria), notes about sessions (e.g., sensor errors), and other 
+  relevant notes.</p>
+   
+   <p>Each 'Session' directory can, but does not necessarily, contain the following content:</p>
+   <ul>
+   	<li>alignment.txt: This is a text file containing the sample offsets between audio files
+		       recorded simultaneously by the array microphone and the head-worn
+		       microphone.</li>
+		<li>amps: These directories contain raw *.amp and *.ini files produced by the AG500
+	      articulograph.</li>
+	      
+	  	<li>phn_*: These directories contain phonemic transcriptions of audio data. Each file
+	       is plain text with a *.PHN file extensions and a filename referring to the
+	       utterance number. These files were generated using the free 
+	       <a href="http://www.speech.kth.se/wavesurfer/">Wavesurfer</a> tool.</li>
+	   
+  		<li> pos: These directories contain the head-corrected positions, velocities, 
+    and orientations of sensor coils for each utterance, as generated by the AG500 
+    articulograph.</li>
+	   <li>prompts: These directories contain orthographic transcriptions.</li>
+	   <li>rawpos: These directories are equivalent to the pos directories except that their
+		articulographic content is not head-normalized to a constant upright 
+		position.</li>
+		<li>wav_*: These directories contain the acoustics. Each file is a RIFF (little-endian) 
+	       WAVE audio file (Microsoft PCM, 16 bit, mono 16000 Hz).</li>
+	   <li>wavall: These directories contains a stereo recording in which one
+		channel contains the recorded acoustics and the other channel contains the
+		analog peaks associated with the 'sweep' signal, which is used by the AG500
+		hardware for synchronization.
+		</li>
+   </ul>
+   
+<p> Additionally, sessions recorded with the AG500 articulograph are marked with 
+  the file 'EMA', and those recorded with the video-based system are marked with 
+  the file 'VIDEO'. Files with a date form as the filename and a txt extension 
+  (e.g. april232008cal2.txt, jan28cal3.txt) are 
+  the measured responses from calibration. The *.log and *.calset files contain descriptions
+  of the calibration process, but not the final result of calibration.</p>
+  
+	<p>See the <a href="docs/README.txt">readme</a> file and the 
+	<a href="http://wiki.ag500.net">AG500 Wiki</a> for more complete descriptions of the 
+	possible subfolders and of the AG500 specific files. 
+	Also, see <a href="docs/session_contents.tsv">session_contents.tsv</a> for a 
+	tab separated table of each session's subfolders and metadata files.</p>
+   
+    
+    <h3>Directory Structure</h3>
+
+    <p>Please see <a href="docs/file.tbl">file.tbl</a> for a complete file list as well as checksums for
+      this publication.</p>
+
+<ul>
+  <li><a href="data/">data/</a> - Contains the sessions and notes directories for each speaker.
+  Subdivided as above.
+  <li><a href="docs/">docs/</a> - Contains documentation about the corpus, a manual for the tapadm 
+  toolbox and a file table.
+  <li><a href="tools/">tools/</a> - Contains Matlab function useful in analysing the TORGO data. 
+  generateAlignTable.m was developed by the corpus authors to generate the 'alignment.txt' 
+	files. The tapadm sub-directory contains Matlab code to access the data produced by the
+	AG500 electromagnetic articulograph and is also available at 
+	<a href=" http://www.phonetik.uni-muenchen.de/~andi/EMAPage">
+	 http://www.phonetik.uni-muenchen.de/~andi/EMAPage</a>. Note that in the 
+	 <a href="docs/README.txt">readme</a>, these functions are in the scripts folder. 
+  The folder name was changed to align more closely with LDC's directory structure.
+</ul>  
+
+    <h3>Updates</h3>   
+
+    <p>
+		Additional information, updates, bug fixes may be available in the LDC
+   	catalog entry for this corpus at <a
+    	href="http://www.ldc.upenn.edu/Catalog/CatalogEntry.jsp?catalogId=LDC2012S02">LDC2012S02</a>.
+    </p>
+
+    <h3>Content Copyright</h3>   
+    
+<p> Portions &copy; 2008-2011 Frank Rudzicz, &copy; 2012 Trustees of the University 
+  of Pennsylvania.</p>
+    <hr>
+
+	<p class="footer">
+    
+    Contact: <a href="mailto:ldc@ldc.upenn.edu">
+
+    <b>ldc@ldc.upenn.edu</b></a><br> &copy; 2012 <A
+    HREF="http://www.ldc.upenn.edu">
+
+    <b>Linguistic Data Consortium</b></a>,
+    <a href="http://www.upenn.edu">
+
+    <b>Trustees of the University of Pennsylvania</b></a>. All Rights Reserved.
+    </p>
+
+</body>
+
+</html>
+

@@ -1,0 +1,181 @@
+/* Styled tags */
+
+body {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #333;
+    text-align: justify;
+    padding-left : 10%;
+    padding-right: 5%;
+    background: #abd;
+}
+
+#header a, #header a img, img, a img {
+    border-style: none;
+}
+
+h2 {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Styled Links */
+
+a:link {
+	text-decoration: none;
+	color: #06f;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #8b0000;
+}
+
+a:active {
+	text-decoration: none;
+	color: #000;
+	background-color: #fcf;
+}
+
+a:hover, ruled {
+	text-decoration: none;
+	border-bottom: 1px dashed #000;
+	color: #000;
+	background-color: #cdf;
+}
+
+a[href^="http"]:not([href*="nist.gov/speech"]):after
+{
+	margin-left: 5px;
+	padding-left: 1px;
+	content: url(../image/link.gif);
+}
+
+/* Layout */
+
+#leftMenu {
+    width: 20%;
+    min-width: 140px;
+    float: left;
+    margin: 5px;
+    background: #eee;
+    border: 1px solid green;
+    text-align: left;
+    font-size: 0.9em;
+}
+
+#header {
+    border: 1px solid #ded;
+    background: #eb9;
+    padding: 0 0 0 10px ;
+}
+
+#main {
+    background: white;
+    margin: 5px 0 0 0 ;
+    padding: 10px;
+}
+
+#footer {
+    clear: both;
+    text-align: center;
+    border: 1px solid #ded;
+    background: #eee;
+}
+
+/* Content styles */
+#leftMenu ul {
+    margin: 0;
+    padding: 0;
+}
+
+#leftMenu:after {
+    content: url(../images/nist_webid.gif);
+    display: block;
+    text-align: center;
+}
+
+#leftMenu ul li {
+    margin-left: 3px;
+    padding: 3px;
+    list-style-type: none;
+}
+
+#leftMenu .current {
+    border: 1px solid #8b0000;
+    margin: 5px;
+    padding: 2px;
+}
+
+#leftMenu .current span {
+    font-weight: bold;
+    color: #8b0000;
+}
+
+#leftMenu .current li {
+    background: #f99;
+}
+
+.quote {
+    font-style: italic;
+}
+
+.scenarioTitle {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.scenarioType {
+    font-weight: bold;
+    border: 1px dotted black;
+    padding: 1px;
+    background: #eee;
+}
+
+p.title {
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+a.back {
+    float: right;
+    clear: both;
+    border: 1px solid green;
+    background: #dfd;
+}
+
+.thumbnail {
+    float: left;
+    width: 200px;
+    height: 14em;
+    min-height: 190px;
+    text-align: center;
+    border: 1px dotted grey;
+    margin: 0 15px 15px 0;
+    padding: 5px;
+}
+
+.clearboth { clear: both; }
+
+#footer ul {
+    list-style-type: none;
+}
+
+#lastUpdate {
+    font-size: xx-small;
+}
+
+.niceTable {
+    border: 1px dashed green;
+    margin-left: auto;
+    margin-right: auto;
+    background: #eee;
+}
+
+.niceTable th {
+    text-align: left;
+}
+
+.niceTable td {
+    padding: 2px;
+    border-top: 1px dotted darkgrey;
+}

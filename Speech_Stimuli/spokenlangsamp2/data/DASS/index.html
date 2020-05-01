@@ -1,0 +1,177 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+
+<head>
+  <title>Digital Archive of Southern Speech</title>
+  <meta http-equiv="Content-type" content="text/html/css;charset=UTF-8">
+  <meta name="description" content="Documentation for Digital Archive of Southern Speech">
+  <meta name="keywords" content="Linguistic Data Consortium">
+  <meta name="keywords" content="LDC">
+  <meta name="keywords" content="Documentation">
+  <meta name="keywords" content="Digital Archive of Southern Speech">
+  <style type="text/css">
+  		body{
+  			background-color: #ffffff;
+  			color: #000000;
+  		}
+  		a:link{color : #990000;}
+  		a:visited{color:#990000;}
+  		a:active {color:#990000;}
+  		h1{
+			text-align:center;
+			color:#990000; 			
+  		}
+  		h3.subtitle{
+			text-align:center;
+			color:#990000;
+		}
+  		ul{
+  			line-height:130%;  		
+  		}
+  		p.footer{
+  			font-size:0.85em;
+  		}
+  		
+  </style>
+</head>
+
+<body>
+
+    
+<h1>Digital Archive of Southern Speech</h1>
+<h3 class="subtitle">LDC2012S03</h3>
+
+
+    <h3>Introduction</h3> 
+
+    
+<p>Digital Archive of Southern Speech (DASS), Linguistic Data Consortium (LDC) 
+  catalog number LDC2012S03 and ISBN 1-58563-603-7, was developed by the University 
+  of Georgia. It is a subset of the <a href="http://www.lap.uga.edu/Site/LAGS.html">
+  Linguistic Atlas of the Gulf States</a> (LAGS), 
+  which is in turn part of the <a href="http://www.lap.uga.edu/">Linguist Atlas 
+  Project</a> (LAP). DASS contains approximately 370 hours of English speech data 
+  from 30 female speakers and 34 male speakers in .wav format and in .mp3 format, 
+  along with associated metadata about the speakers and the recordings and maps 
+  in .jpeg format relating to the recording locations.</p>
+<p>LAP consists of a set of survey research projects about the words and pronunciation 
+  of everyday American English, the largest project of its kind in the United 
+  States. Interviews with thousands of native speakers across the country have 
+  been carried out since 1929. LAGS 
+  surveyed the everyday speech of Georgia, Tennessee, Florida, Alabama, Mississippi, 
+  Arkansas, Louisiana, and Texas in a series of 914 audio-taped interviews conducted 
+  from 1968-1983. Interviews average approximately six hours in length; the systematic 
+  LAGS tape archive amounts to 5500 hours of sound recordings. DASS is a collection 
+  of 64 interviews from LAGS selected to cover a range of speech across the region 
+  and to represent multiple education levels and ethnic backgrounds. </p>
+<h3>Data</h3>
+<p> The DASS speakers' average age is 61 years; there are 30 women and 34 men 
+  from the Gulf States region represented in this release. The interviews cover 
+  common topics such as family, the weather, household articles and activities, 
+  agriculture and social connections. </p>
+<p>The interviews were originally recorded in the field on reel-to-reel audio 
+  tape. A digital version of every reel of tape was then made, one .wav file per 
+  reel, usually about one hour of sound. Each interview thus consists of a set 
+  of 3 to 13 reels, or roughly 3 to 13 interview hours. Personally identifying 
+  or sensitive information in the files was replaced with a tone to protect the 
+  privacy and to assure ethical treatment of speakers. Each .wav file is split 
+  into multiple .mp3 files based on the topic of conversation and labeled thusly. 
+  Included spreadsheets provide information about the speakers, the labels used 
+  for topics and the sound files.</p>
+<p>Also included in this release is a version of the LICHEN software developed 
+  at the University of Oulu, Finland. LICHEN allows users to browse and search 
+  through the audio data in a more advanced fashion using a graphical interface. 
+  Further information and <a href="docs/instructions_for_using_LICHEN.pdf">instructions</a> 
+  for LICHEN can be found within the docs folder of this release. LICHEN requires 
+  <a href="http://www.videolan.org/vlc/">VLC media player</a> and 
+  <a href="http://java.sun.com/">java</a> and runs on Windows. To launch LICHEN, run 
+  LAUNCH_LICHEN.bat located in the <a href="data/LICHEN/">data/LICHEN/</a> 
+  folder.</p>
+  <p>In the event that LICHEN reports a file not found error when trying to play a 
+  particular audio file, this may be fixed by changing the file name on 
+  the hard drive to match the file name listed in LICHEN and within the error message.</p>
+<p>Users who wish to use the data from the command line in *NIX systems may experience 
+  difficulty as many file names contain spaces and parenthesis. Those characters 
+  were left in the file names to ensure that LICHEN runs smoothly. Depending on 
+  your particular system, you may be able to utilize 
+  <a href="http://www.gnu.org/software/sed/manual/sed.html">sed</A> to overcome this. 
+  Inserting <CODE>sed 's:\([ ()]\):\\\1:g'</CODE> into your commands should produce 
+  escaped spaces and parenthesis and make mass processing feasible. </p>
+
+   
+    
+    <h3>Directory Structure</h3>
+
+    <p>Please see <a href="docs/file.tbl">file.tbl</a> for a complete file list as well as checksums for
+      this publication.</p>
+
+<ul>
+  <li><a href="data/">data/</a>
+	  <ul>
+	  <li><a href="data/Biographies/">data/Biographies/</a> - Contains biographical information 
+	  on each speaker.</li>
+	  <li><a href="data/DASS_Sound%20Files/">data/DASS_Sound Files/</a> - Contains all of 
+	  the audio files organized by speaker as well as notes on the recordings. 
+	  The notes are of *meta.txt form.</li>
+	  <li><a href="data/LICHEN/">data/LICHEN/</a> - Contains the LICHEN application. 
+	  Running LAUNCH_LICHEN.bat starts the program.</li>
+	  <li><a href="data/Map%20Files/">data/Map Files</a> - Contains the LICHEN application. 
+	  Running LAUNCH_LICHEN.bat starts the program.</li>
+  	  </ul>
+  <li><a href="docs/">docs/</a> - Contains documentation on the corpus, LICHEN and 
+  spreadsheets with metadata on the speakers.</li> 
+</ul>  
+
+    <h3>Updates</h3>   
+
+    <p>
+		Additional information, updates, bug fixes may be available in the LDC
+   	catalog entry for this corpus at <a
+    	href="http://www.ldc.upenn.edu/Catalog/CatalogEntry.jsp?catalogId=LDC2012S03">LDC2012S03</a>.
+    </p>
+    
+    <h3>Authorship</h3>
+    <p>The following people were involved with the DASS project:</p>
+    <p>William A. Kretzschmar, Jr., Paulina Bounds, Jacqueline Hettel and Steven Coats<br>
+		University of Georgia</p>
+
+	<p>Lee Pederson<br>
+	Emory University</p>
+
+	<p>Lisa Lena Opas-Hänninen, Ilkka Juuso and Tapio Seppänen<br>
+	University of Oulu (Finland)</p>
+
+    <h3>Sponsorship</h3>
+
+<p>The Atlas Data contained herein comprises information collected in the period 
+  spanning from the 1930s to 2010 and has been compiled from diverse sources, 
+  by, and under the direction of, Dr. William A. Kretzschmar, <em>Harry and Jane 
+  Wilson Professor in Humanities</em> at the Department of English of The University 
+  of Georgia.</p>
+<p>Compilation and digitalization of this work was funded, in part, by the US 
+  National Science Foundation and by the US National Endowment for the Humanities.</p>
+<p>Additional information about the Atlas Project can be obtained at <a href="http://www.lap.uga.edu/Home.html">http://www.lap.uga.edu/Home.html</a>.</p>
+<h3>Content Copyright</h3>
+<p>Portions &copy; 1982-2010 American Dialect Society, &copy; 1986-2010 University of Georgia 
+  Research Foundation, &copy; 2012 Trustees of the University of Pennsylvania</p>
+<hr>
+
+	<p class="footer">
+    
+    Contact: <a href="mailto:ldc@ldc.upenn.edu">
+
+    <b>ldc@ldc.upenn.edu</b></a><br> &copy; 2012 <A
+    HREF="http://www.ldc.upenn.edu">
+
+    <b>Linguistic Data Consortium</b></a>,
+    <a href="http://www.upenn.edu">
+
+    <b>Trustees of the University of Pennsylvania</b></a>. All Rights Reserved.
+    </p>
+
+</body>
+
+</html>
+

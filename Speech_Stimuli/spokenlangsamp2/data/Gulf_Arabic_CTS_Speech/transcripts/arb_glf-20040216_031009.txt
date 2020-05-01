@@ -1,0 +1,47 @@
+[0.0001] [3.6187]	B:	اسم (ضجة) (ضجة) اسم	<isim (Djp) (Djp) Aisim
+[0.0001] [7.8563]	A:	(()) (()) كيف حالك شاخبارك	(()) (()) kayf HaAlak $aAaxbaArak
+[3.6189] [8.8313]	B:	هلا ابي (ضجة) هلا والله وهلا بخير يجعلك طيب وشاخبارك	halaA buwy (Djp) halaA waAll~ah wuhalaA bxayr yijEalak Tay~ib wi$aAaxbaArak
+[7.8564] [15.6375]	A:	طيب والله بخير شعلومك وينك في (%إيه) (تنفس) (%أه)	Tay~ib waAll~ah bxayr $iEluwmak waynak fiy (%<yh) (tnfs) (%>h)
+[8.8314] [12.3562]	B:	بخير يسلم عمرك وشاخباركم	bxayr ysal~im Eumrak wi$aAaxbaArkum
+[12.3564] [15.8812]	B:	والله (%أه) موجود آمرني بس (تنفس)	waAll~ah (%>h) mawjuwd |murniy bas (tnfs)
+[15.6376] [20.3250]	A:	وين نبغى نقابلك اليوم نشوفك أقول نبغى نشوفك الليلة	wayn nibgaY nGaAblak Alyawm n$uwfak >aquwl nibgaY n$uwfak All~aylap
+[15.8814] [22.3875]	B:	آمرني (تنفس) (ضجة) وشعندك حياتي (ضجة) وشعندك يا حياتي (تنفس)	|mirniy (tnfs) (Djp) wi$Eindak HayaAtiy (Djp) wi$Eindak yaA HayaAtiy (tnfs)
+[20.3251] [24.3750]	A:	(%أه) (%هاي) نبغى نشوف نتعشى سوى	(%>h) (%hAy) nibgaY n$uwf nitEa$~aY sawaY
+[22.3876] [26.2125]	B:	أقول شعندك وشعندك ^سام	>aGuwl $Eindak wi$Eindak ^saAm
+[24.3751] [28.9125]	A:	نبغى نتعشى سوى أقول (ضجة)	nibgaY nitEa$~aY sawaY >aquwl (Djp)
+[26.2126] [31.9500]	B:	تما- تمام لس- طلعتنا (تنفس) أمس بتنعاد يعني وشتبغانا نطلع يعني	tamaA- tamaAm lis- TalEatnaA (tnfs) >ams btinEaAd yaEniy wu$tibgaAnaA nTal~iE yaEniy
+[28.9126] [31.9312]	A:	(%إيه) (%إيه) (%إيه) (%إيه)	(%<yh) (%<yh) (%<yh) (%<yh)
+[31.9314] [39.1125]	A:	أي شي تبيه مندي مندي مندي (%إيه) (تنفس)	>ay $ay tibiyh mandiy mandiy mandiy (%<yh) (tnfs)
+[31.9501] [36.9375]	B:	تبغى كبسة والا تبغى (%أه) (تنفس) مصلح إيدام والا شتبغى بس	tibgaY kabsap wiAil~aA tibgaY (%>h) (tnfs) mSal~aH <iydaAm wiAil~aA $tibgaY bas
+[36.9376] [43.8750]	B:	مندي ها يبغى له الشغ- يبغى له الشغل المندي حياتي (سعال) (تنفس)	mandiy haA yibgaY lah Al$~ugu- yibgaY lah Al$~ugul Almandiy HayaAtiy (sEAl) (tnfs)
+[39.1126] [42.3375]	A:	مندي	mandiy
+[42.3376] [45.4500]	A:	طيب ما تروح الاستراحة	Tay~ib maA truwH AlAistraAHap
+[43.8751] [47.3813]	B:	تعرف شيبغى لنا يا (ضجة) حبيبي (ضجة)	taErif $yibgaY lnaA yaA (Djp) Habiybiy (Djp)
+[45.4501] [52.8750]	A:	نروح الاستراحة طيب بعدين	nruwH AlAistraAHap Tay~ib baEdayn
+[47.3814] [50.4375]	B:	خلص ما في مشكلة يبغى لنا طال عمرك (%إيه) إسمع	xalaS maA fiy mi$kilap yibgaY lnaA TaAl Eumrak (%<yh) <ismaE
+[50.4376] [57.7125]	B:	لحمة (()) يحبها قلبك بغى لنا البهورات ويبغى لنا الصلصة ويبغى لنا العلوم الطيبة (%أوو) (ضجة)	lHamap (()) yHibhaA Galbak bigaY lnaA AlbhuwraAt wuyibgaY lnaA AlS~alSap wuyibgaY lnaA AlEuluwm AlT~aybap (%>ww) (Djp)
+[52.8751] [60.3188]	A:	(%أم)	(%>m)
+[57.7126] [64.4625]	B:	يبغى لنا هذاك الرز المفلفل ويبغى لنا الزبيب والسنوبر ويبغى لنا يفله يفله (تنفس)	yibgaY lnaA ha*aAk Alr~uz Almfalfal wuyibgaY lnaA Alz~ibiyb wiAls~inawbar wuyibgaY lnaA yfal~ah yfal~ah (tnfs)
+[60.3189] [64.0687]	A:	طيب يا اخي طيب طيب	Tay~ib yaA Aaxiy Tay~ib Tay~ib
+[64.0689] [70.8187]	A:	طيب نمر له (()) ونجيبه يكذبوها	Tay~ib nmur lah (()) winjiybah yka*~ibuwhaA
+[64.4626] [70.8750]	B:	و- (تنفس) (ضجة) لا لا لا ما في (%إيه) (%إيه) اسمه ((تيس)) وكذا	wu- (tnfs) (Djp) laA laA la> maA fiy (%<yh) (%<yh) <ismah ((tays)) wuki*aA
+[70.8189] [74.3812]	A:	(ضجة) لا لا	(Djp) laA laA
+[70.8751] [74.8125]	B:	ما في في ^العثيم يبغى لنا طال عمرك اشتري وأيش أشوف يا حبيبي	maA fiy fiy ^AlEuvaym yibgaY lnaA TaAl Eumrak Ai$tariy w>ay$ >a$uwf yaA Hbaybiy
+[74.3814] [77.7562]	A:	(%أه) (ضجة) (تنفس)	(%>h) (Djp) (tnfs)
+[74.8126] [79.2375]	B:	و- ورا ما تخليها شوي	wa- waraA maA txal~iyhaA $awiy
+[77.7564] [85.7062]	A:	وايش دجاج (%إيه) (%أم)	waAay$ dujaAj (%<yh) (%>m)
+[79.2376] [83.4000]	B:	(%إيه) نخليها شوي نخليها نطلع لها الحين نعرف شنسوي	(%<yh) nxal~iyhaA $awiy nxal~iyhaA niTlaE lhaA AlHiyn niErif $unsaw~iy
+[83.4001] [89.2687]	B:	تبغى م- تبغى ال- اليوم اليوم شوف يا حبيبي	tibgaY mi- tibgaY Al- Alyawm Alyawm $uwf yaA Hbaybiy
+[85.7064] [88.8750]	A:	هي اليوم في الليل	hiy~a Alyawm fiy All~ayl
+[88.8751] [96.1688]	A:	(%أم) (ضجة) (%إيه)	(%>m) (Djp) (%<yh)
+[89.2689] [95.9625]	B:	شوف يا ح- يا حبيبي أجل يبغى لنا شغل الله يسلم عمرك (تنفس) يبغى لنا الحين أجل أطلع الحين ل- السوق (تنفس)	$uwf yaA H- yaA Hbaybiy >ajal yibgaY lnaA $ugul All~ah ysal~im Eumrak (tnfs) yibgaY lnaA AlHiyn >ajal >aTlaE AlHiyn li- Als~uwG (tnfs)
+[95.9626] [102.5812]	B:	واطلع ابنده الحين واشتري (%إيه) تم- بثمن من واحد	waAaTlaE Aabandah AlHiyn waAa$tiriy (%<yh) tami- bvamin min waAHad
+[96.1689] [101.0062]	A:	أيوا	>aywaA
+[101.0064] [108.1688]	A:	يعني يمكن حوالي (%أه) ثماني أشخاص	yaEniy yimkin HawaAlay (%>h) vamaAniy >a$xaAS
+[102.5814] [109.9688]	B:	ثمان أشخاص يبغى لنا وال- والدجاج اثنين ثلاثة أربع خم- يبغى لنا عشر دجاجات (تنفس) (ضجة)	vaman >a$xaAS yibgaY lnaA wiAl- wiAld~ajaAj Aivnayn valaAvap >arbaE xam- yibgaY lnaA Ea$ar dajaAjaAt (tnfs) (Djp)
+[108.1689] [112.3688]	A:	أربعة خم-	>arbaEap xam-
+[109.9689] [113.3625]	B:	خلاص يبغ- يبغى لنا عشر دجاجات زين يا ابي	xalaAS yibga- yibgaY lnaA Ea$ar dajaAjaAt zayn yaA buwy
+[112.3689] [119.9250]	A:	(%إيه) (%إيه) (سعال) (%أم) (%إيه) طيب	(%<yh) (%<yh) (sEAl) (%>m) (%<yh) Tay~ib
+[113.3626] [118.5750]	B:	(%أوو) (%أه) خلص أنا باجيب ال- الدجاج وب- وباجيب الشبوك (lam Pronounced)	(%>ww) (%>h) xalaS >anaA baAajiyb Al- Ald~ajaAj wuba- wubaAajiyb Al$buwk (lam Pronounced)
+[118.5751] [121.6312]	B:	وانت الله يسل- وانت الله يسلم عمرك (ضجة) (تنفس)	wiAint All~ah ysal- wiAint All~ah ysal~im Eumrak (Djp) (tnfs)
+[119.9251] [124.8375]	A:	المنقل المنقل المنقل طيب	AlmanGal AlmanGal AlmanGal Tay~ib

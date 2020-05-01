@@ -1,0 +1,154 @@
+<html>
+
+<head>
+  <title>Gulf Arabic Conversational Telephone Speech, Transcripts</title>
+  <meta name="description" content="Documentation for Gulf Arabic Conversational Telephone Speech, Transcripts">
+  <meta name="keywords" content="Linguistic Data Consortium LDC Documentation for Gulf Arabic Conversational Telephone Speech, Transcripts">
+</head>
+
+<body bgcolor="#ffffff" LINK="#990000" ALINK="#990000" VLINK="#990000" TEXT="#000000" >
+
+    
+<h2 align="center"><font color="#990000"> Gulf Arabic Conversational Telephone 
+  Speech and Transcript Sampler</font></h2>
+<h2 align="center">&nbsp;</h2>
+
+    <br>
+
+    <h3>Introduction</h3> 
+
+    
+<p>This file contains documentation for samples from Gulf Arabic Conversational 
+  Telephone Speech and Transcripts, Linguistic Data Consortium (LDC) catalog numbers 
+  LDC2006S43 (speech) and LDC2006T15 (transcripts) and isbns 1-58563-400-X and 
+  1-58563-401-8, respectively. 
+<p>Gulf Arabic is the colloquial Arabic dialect spoken in nations on or near the 
+  Persian Gulf. The dialect is characterized by the presence of loanwords from 
+  Persian and idiosyncratic pronounciation that sets it apart both from Modern 
+  Standard Arabic (MSA) and from other Arabic dialects. </p>
+<p>Gulf Arabic Conversational Telephone Speech is a database of 975 spontaneous 
+  telephone conversations in Colloquial Gulf Arabic. A total of 976 conversation 
+  sides are provided (one speaker appears on two distinct calls). The average 
+  duration per side is about 5.7 minutes.</p>
+<p>The data was collected and transcribed in 2004 by Appen Pty Ltd. (Appen), Sydney, 
+  Australia.</p>
+<h3>Data</h3>
+
+    
+<p>Presented below are three two-minute audio samples in MS Wave format (.wav) 
+  along with their associated transcriptions. The recordings have two channels, 
+  each of represents one side of the conversation. In the full corpus, the audio 
+  files were recorded using the NIST Sphere audio format. 
+<table width="90%" border="1">
+  <tr> 
+    <td><strong>Speech</strong></td>
+    <td><strong>Transcript</strong></td>
+    <td><strong>Caller Gender</strong></td>
+    <td><strong>Reciever Gender</strong></td>
+    <td><strong>Caller Nation</strong></td>
+    <td><strong>Reciever Nation</strong></td>
+    <td><strong>Topic</strong></td>
+    <td><strong>Line Type</strong></td>
+  </tr>
+  <tr> 
+    <td><a href="audio/arb_glf-20040208_011139.wav">arb_glf-20040208_011139.wav</a></td>
+    <td>arb_glf-20040208_011139(<a href="transcripts/arb_glf-20040208_011139.pdf">PDF</a>|<a href="transcripts/arb_glf-20040208_011139.txt">text</a>)</td>
+    <td>Female</td>
+    <td>Female</td>
+    <td>United Arab Emirates</td>
+    <td>United Arab Emirates</td>
+    <td>Family</td>
+    <td>Mobile/Landline</td>
+  </tr>
+  <tr> 
+    <td><a href="audio/arb_glf-20040208_015804.wav">arb_glf-20040208_015804.wav</a></td>
+    <td>arb_glf-20040208_015804(<a href="transcripts/arb_glf-20040208_015804.pdf">PDF</a>|<a href="transcripts/arb_glf-20040208_015804.txt">text</a>)</td>
+    <td>Male</td>
+    <td>Female</td>
+    <td>Oman</td>
+    <td>Oman</td>
+    <td>Yesterday's Activities</td>
+    <td>Mobile/Landline</td>
+  </tr>
+  <tr> 
+    <td><a href="audio/arb_glf-20040216_031009.wav">arb_glf-20040216_031009.wav</a></td>
+    <td>arb_glf-20040216_031009(<a href="transcripts/arb_glf-20040216_031009.pdf">PDF</a>|<a href="transcripts/arb_glf-20040216_031009.txt">text</a>)</td>
+    <td>Male</td>
+    <td>Male</td>
+    <td>Saudi Arabia</td>
+    <td>Saudi Arabia</td>
+    <td>Cooking</td>
+    <td>Landline/Mobile</td>
+  </tr>
+</table>
+<p>&nbsp;
+<h3>Transcript Format</h3>
+
+<p>Each transcript file is a tab-delimited flat table, where each line
+contains information and text for a single contiguous utterance,
+presented via the following fields:</p>
+
+<ol>
+ <li> beginning time stamp in seconds, in square brackets ("[5.7189]")
+ <li> ending time stampe in seconds, in square brackets
+ <li> channel/speaker-ID ("A:" or "B:")
+ <li> "consonant skeleton" orthography for the utterance, in UTF-8
+ <li> "diacritized" orthography for the utterance, in ASCII
+</ol>
+
+<p>The ASCII field is the Buckwalter transliteration of the fully
+"vowelized" (pronunciation) form of the utterance.  Within fields 4
+and 5, word boundaries are marked by space characters in the normal
+way, following common practices of Arabic orthographic convention
+(e.g. all definite articles and many conjunctions and prepositions are
+attached as prefixes to the following word).</p>
+
+<p>Transcript tokens enclosed in single parentheses -- e.g. "(DHk)" --
+represent annotation marks for non-speech events or conditions, such
+as laughter, noise, etc.  Multi-token strings within single
+parentheses involve words in some other language (typically English)
+or some other Arabic dialect.</p>
+
+<p>Double parentheses, either with or without tokens enclosed within them -- e.g. 
+  "(())", "((word))" or "((word1 word2))" -- represent regions where the transcriber 
+  was unsure as to what was said.</p>
+
+<p>The "consonant skeleton" orthography is intended to reflect common orthographic 
+  practice in written Arabic (i.e. MSA), but without being bound strictly by the 
+  specific spellings of MSA words. That is, there may be novel (dialect-specific) 
+  words and changes of consonant quality (hence altered spelling) in words that 
+  are cognates between MSA and Gulf Arabic.</p>
+
+<p>The "vowelized" orthography is restricted to a character set that
+allows words to be rendered coherently in Arabic script (with all
+diacritics present as needed to represent short vowels, etc), but is
+intended to reflect the perceived pronunciation of each token.  As a
+result, a given word (type), having a multiple occurrences in the text
+with identical "skeletal" spellings, may have multiple distinct
+"vowelized" spellings.  In some cases, these different spellings
+simply reflect pronunciation variants, while in other cases, they
+represent distinct morphological forms (with distinct contextual
+meanings) where the semantic differences are conveyed solely by the
+the short vowels (i.e. the diacritics).</p>
+<h3>Content Copyright</h3>
+<p>Portions &copy; 2006 Trustees of the University of Pennsylvania</p>
+<hr>
+<p align="center"> <a href="../index.html">Back to Table of Contents</a></p>
+<hr>
+
+    <font size="-1">
+    Contact: <a href="mailto:ldc@ldc.upenn.edu" style="text-decoration:none">
+
+    <b>ldc@ldc.upenn.edu</b></a><br> &copy; 2006 <A
+    HREF="http://www.ldc.upenn.edu" STYLE="text-decoration:none">
+
+    <b>Linguistic Data Consortium</b></a>,
+    <a href="http://www.upenn.edu" style="text-decoration:none">
+
+    <b>Trustees of the University of Pennsylvania</b></a>. All Rights Reserved.
+    </font>
+
+</body>
+
+</html>
+

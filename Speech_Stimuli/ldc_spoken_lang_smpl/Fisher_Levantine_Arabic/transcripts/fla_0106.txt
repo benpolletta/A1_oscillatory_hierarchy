@@ -1,0 +1,82 @@
+1.81 2.34 B:	ألو	>alw
+
+2.41 2.87 A:	ألو	>alw
+
+3.05 3.92 B:	ألو مرحبا	>alw marHabA
+
+3.70 8.08 A:	أهلا أنا إسمي ^ماري من أميركا من ^جاكسون ^فيل %تنفّس	>ahlAF >anA <ismiy ^mAriy min >amiyrkaA min jaAksuwn fiyl %tnf~s
+
+7.91 9.64 B:	أهلا وسهلا أنا ^منال	>ahlAF wsahlaA >anA ^manAl
+
+9.75 10.14 A:	أيوه	>aywah
+
+10.49 11.73 B:	%إيه بحكي من ^بوسطن	%<yh baHkiy min bwsTin
+
+12.88 13.56 B:	كيفك ؟	kiyfik ?
+
+11.75 14.74 A:	%أوو يا أهلا %أه ماشي الحال %ضحك	%>ww yA >ahlAF %>h mA$iy AilHaAl %DHk
+
+14.91 15.87 A:	كيفك ؟ %تنفّس	kiyfik ? %tnf~s
+
+15.40 16.92 B:	%إيه عفواً شو إسمك ثاني ^ماري ؟	%<yh EafwaAF $uw <ismik tAniy(Cons_Change) ^mAriy ?
+
+16.86 17.81 A:	^ماري إيه ^ماري	^mAriy <iyh ^mAriy
+
+17.40 18.94 B:	^ماري أهلا وسهلا ^ماري	^mAriy >ahlAF wsahlaA ^mAriy
+
+18.18 19.55 A:	يا أهلا فيكي أهلاً	yA >ahlAF fiykiy EalaY
+
+19.10 20.52 B:	حلو إسمك كثير %ضحك	Hiluw <ismik ktiyr(Cons_Change) %DHk
+
+23.10 24.87 B:	%مهم اليوم عن التعليم	%mhm Ailyuwm Ean AiltaEliym
+
+25.22 32.03 B:	%إيه عن %إيه بيحكوا عن شو تصور- لل- تصوركم لإستعمال الكمبيوتر للتعليم	%<yh Ean %<yh biyHkuwA Ean $uw taSaw~ur- lal- taSaw~urkum la<istiEmAl AlkumPywtar(Cons_Change) laltEaliym
+
+31.65 32.76 A:	بيسيء كثير	biysiy' ktiyr(Cons_Change)
+
+32.97 33.79 B:	بيسيء كثير ؟	biysiy' ktiyr(Cons_Change) ?
+
+33.63 34.76 A:	كثير %ضحك	ktiyr(Cons_Change) %DHk
+
+37.24 38.71 A:	ي- ي- %ضجّة	y- y- %Dj~p
+
+41.95 48.75 B:	لسبب واحد إنه للسرعة إنه ممكن إذا احتجتي لأي معلومة مثلاً مش قادرة إنك- يعني	lasabab wAHad <in~w(Cons_Change) lalsurEap(-ap_Silent) <in~w(Cons_Change) mumkin <izA(Cons_Change) AHtijtiy la>ay maEluwmip(-ap_Silent) matalAF(Cons_Change) mi$ |drip(Cons_Change)(-ap_Silent) <in~ik- yaEniy
+
+55.71 56.28 A:	%ضجّة كثير	%Dj~p ktiyr(Cons_Change)
+
+49.05 57.41 B:	%إيه تستفيدي منها من كتاب أو مش موجودة في كتاب أو هاذ إنك تاخذيها لكن زي ما قلتي بيسيء كثير- كثير -- كثير %ضحك	%<yh tistafiydiy minhaA min ktaAb >aw mi$ mawjuwdap(-ap_Silent) fiy ktaAb >aw hAd(Cons_Change) <in~ik tAxdiyhA(Cons_Change) lakin zay mA >ultiy(Cons_Change) biysiy' ktiyr(Cons_Change)- ktiyr(Cons_Change) -- ktiyr(Cons_Change) %DHk
+
+58.59 59.38 B:	بالله ؟	baAll~Ah ?
+
+60.39 60.95 B:	بال- آ %ضجّة	bAl- | %Dj~p
+
+63.75 64.19 B:	أيوه	>aywah
+
+65.08 65.49 B:	أيوه	>aywah
+
+56.65 68.50 A:	بالنسبة لإلي كثير- كثير يعني %أجنبي لأن بتعرفي ليه ؟ %أه أنا -- أنا تعلمت ب- -- ^بسوريا أنا %أجنبي بتحدى أكبر منهدس هون متعلم عالكمبيوتر	bAlnisbip(-ap_Silent) la<iliy ktiyr(Cons_Change)- ktiyr(Cons_Change) yaEniy %>jnby la>in btiErafiy liyh ? %>h >anA -- >anA tEal~amit b- -- bsuwryaA >anA %>jnby batHad~aY >akbar munhadis huwn mitEal~im EaAlkumbyuwtir
+
+68.23 69.11 B:	أيوه بالضبط	>aywah bAlzaPT(Cons_Change)(Velarized_Cons)
+
+68.78 70.61 A:	لأن ما بيستخدم مخه	la>in mA biystaxdim mux~w(Cons_Change)
+
+70.73 71.31 B:	بالضبط	bAlzaPT(Cons_Change)(Velarized_Cons)
+
+73.63 74.38 B:	ما هاي هي صح	mA hAy hiy SaH
+
+77.17 77.46 B:	بز-	biz-
+
+90.33 91.63 B:	ما هاي هي هلق فعلاً %ضجّة	mA hAy hiy hal~a'(Cons_Change) fiElAaF %Dj~p
+
+99.58 100.25 B:	بالضبط %ضجّة	bAlzaPT(Cons_Change)(Velarized_Cons) %Dj~p
+
+101.52 102.44 B:	آة -- آه مضبوط	|p -- |h mazbuwT(Cons_Change)(Velarized_Cons)
+
+104.10 111.90 B:	ما هاي هي علشان هيك هلق فعلاً بتلاحظي مثلاً %إيه لاحظت شغلة إنه مثلاً هلق لما بني ^آدم اثنين يكونوا يتناقشوا ببعض	mA hAy hiy Eala$An hiyk hal~a'(Cons_Change) fiElAaF bitlAHZiy muvlAF %<yh lAHaZit $aglip(-ap_Silent) <in~w(Cons_Change) muvlAF hal~a'(Cons_Change) lam~A baniy |adam Atniyn(Cons_Change) ykuwnuwA yitnAqa$uwA bbaEaD
+
+124.11 126.70 B:	الذاكرة اللي في عقلهم إنه الواحد فعلاً	AlzAkirap(Cons_Change)(-ap_Silent) Ail~y fiy Ea}ilhum(Cons_Change) <in~w(Cons_Change) AlwAHad fiElAaF
+
+126.93 129.18 B:	يخزن فيها أي معلومات ما في صح	yxaz~an fiyhaA >ay maEluwmAt mA fiy SaH
+
+
+

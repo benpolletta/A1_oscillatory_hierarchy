@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="Macintosh"?>
+<!DOCTYPE Trans SYSTEM "trans-13.dtd">
+<Trans scribe="Laura" audio_filename="S-20D_L_16k" version="3" version_date="040809">
+<Episode>
+<Section type="report" startTime="0" endTime="1948.13000488">
+<Turn startTime="0" endTime="1948.13000488">
+<Sync time="0"/>
+-ay, July thirtieth, two thousand four,
+<Sync time="2.267"/>
+
+<Sync time="2.593"/>
+and this is subject S twenty D./
+<Sync time="6.229"/>
+
+<Sync time="6.674"/>
+and so whenever you're ready you can go ahead and say start./
+<Sync time="8.895"/>
+
+<Sync time="11.118"/>
+great./
+<Sync time="11.65"/>
+
+<Sync time="12.029"/>
+
+<Sync time="12.323"/>
+so we'll start out with a few of the biographical questions from the beginning, and you can just mix up the answers so that you can get comfortable with the pedals if you like./
+<Sync time="19.692"/>
+
+<Sync time="20.274"/>
+um /
+<Sync time="21.008"/>
+
+<Sync time="21.943"/>
+when were you born?/
+<Sync time="22.639"/>
+&lt;LN&gt;
+<Sync time="25.205"/>
+
+<Sync time="27.132"/>
+and where were you born?/
+<Sync time="28.14"/>
+
+<Sync time="31.22"/>
+and where'd you go to high school?/
+<Sync time="32.397"/>
+
+<Sync time="37.609"/>
+and what do you do right now?/
+<Sync time="38.905"/>
+

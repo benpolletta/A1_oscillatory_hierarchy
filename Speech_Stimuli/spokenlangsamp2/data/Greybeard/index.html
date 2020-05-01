@@ -1,0 +1,149 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+
+
+<html>
+
+<head>
+
+  <title>Greybeard</title>
+  <meta http-equiv="Content-type" content="text/html/css;charset=UTF-8">
+  <meta name="description" content="Documentation for Greybeard">
+  <meta name="keywords" content="Linguistic Data Consortium">
+  <meta name="keywords" content="LDC">
+  <meta name="keywords" content="Documentation">
+  <meta name="keywords" content="Greybeard">
+  <style type="text/css">
+  		body{
+  			background-color: #ffffff;
+  			color: #000000;
+  		}
+  		a:link{color : #990000;}
+  		a:visited{color:#990000;}
+  		a:active {color:#990000;}
+  		h1{
+			text-align:center;
+			color:#990000; 			
+  		}
+  		h3.subtitle{
+			text-align:center;
+			color:#990000;
+		}
+  		ul{
+  			line-height:130%;
+  		}
+  		p.cited{
+  			padding-left:2em;
+  			text-indent:-2em;
+  		}
+  		p.footer{
+  			font-size:0.85em;
+  		}
+		table, th, td
+		{
+			border-collapse:collapse;
+			border: 1px solid black;
+			padding: 1px 5px;
+			text-align:center;
+		}
+  		
+  </style>
+</head>
+
+<body>
+
+    
+<h1>Greybeard</h1>
+<h3 class="subtitle">LDC2013S05</h3>
+
+<h3>Introduction</h3>
+
+<p>Greybeard, Linguistic Data Consortium (LDC) Catalog Number LDC2013S05 and ISBN 
+  1-58563-645-2, was developed by LDC and is comprised of approximately 590 hours 
+  of English telephone conversation speech collected in October and November 2008 
+  by LDC. The goal was to record new telephone conversations among subjects who 
+  had participated in one or more previous LDC telephone collections, from Switchboard-1 
+  (1991) through the Mixer studies (2006).</p>
+
+<p>A total of 172 subjects were enrolled in the Greybeard collection, all of whom 
+  had participated in one of the following:</p>
+<ul>
+  <li>Switchboard-1 
+	(<a href="http://www.ldc.upenn.edu/Catalog/catalogEntry.jsp?catalogId=LDC97S62">LDC97S62</a>)
+	1991-1992:   2 subjects</li>
+  <li>Switchboard-2 (<a href="http://www.ldc.upenn.edu/Catalog/catalogEntry.jsp?catalogId=LDC98S75">LDC98S75</a>,
+  <a href="http://www.ldc.upenn.edu/Catalog/catalogEntry.jsp?catalogId=LDC99S79">LDC99S79</a>,
+  <a href="http://www.ldc.upenn.edu/Catalog/catalogEntry.jsp?catalogId=LDC2002S06">LDC2002S06</a>) 
+    1996-1997: 16 subjects</li>
+  <li>Mixer 1 and 2  2003-2005: 103 subjects</li>
+  <li>Mixer 3 2006: 51 subjects</li>
+</ul>
+
+<p>Most Greybeard participants completed 12 calls. Some subjects completed up 
+  to 24 calls. Calls were made or received via an automatic operator system of LDC
+  which connected two participants and announced a topic for discussion. </p>
+<h3>Data</h3>
+<p>This releases consists of 4680 calls -- the complete set of calls recorded 
+  during the Greybeard collection (1098 calls) as well as all calls from the legacy 
+  collections that involved the Greybeard speakers.</p>
+
+<p>The audio from each call was captured digitally by the operator system and 
+  stored in a separate file as raw mu-law sample data. As the recordings were 
+  uploaded daily from the robot operator to network disk storage, automated processes 
+  reformatted the audio into a 2-channel SPHERE-format file for each conversation 
+  and queued the recordings for manual audit to verify speaker identification 
+  and to check other aspects of the recording. Auditors provided impressionistic 
+  judgments on overall audio quality, presence of background noise and cross-channel 
+  echo and any other technical difficulty with the call, in addition to confirming 
+  the speaker-ID on each channel. These auditor decisions are provided in the 
+  "call_info" tables, described in more detailed in the included documentation.</p>
+
+<p>For this release, each 2-channel recording was converted from SPHERE to MS-WAV 
+  file format and compressed using FLAC. All audio files are 2-channel, 8 KHz, 
+  16-bit PCM sample data, in FLAC-compressed form 
+  (<a href="http://flac.sourceforge.net">http://flac.sourceforge.net</a>). 
+  When uncompressed, they have MS-WAV/RIFF headers.</p>
+
+<h3>Directory Structure</h3>
+<p>Please see <a href="docs/file.tbl">file.tbl</a> for a complete file list as well 
+as checksums for this publication.</p>
+
+<ul>
+<li><a href="data/">data/</a> - Contains the flac audio files, subdivided by collection.</li>
+<li><a href="docs/">docs/</a> - Contains additional documentation with more detailed information about the 
+	collection, calls and speakers.</li> 
+</ul>
+
+
+<h3>Updates</h3>   
+
+    <p>
+		Additional information, updates, bug fixes may be available in the LDC
+   	catalog entry for this corpus at <a
+    	href="http://www.ldc.upenn.edu/Catalog/CatalogEntry.jsp?catalogId=LDC2013S05">LDC2013S05</a>.
+    </p>
+
+
+    
+<h3>Content Copyright</h3>
+<p>Portions &copy; 2008, 2013 Trustees of the University of Pennsylvania</p>   
+
+
+    <hr>
+
+	<p class="footer">
+    
+    Contact: <a href="mailto:ldc@ldc.upenn.edu">
+
+    <b>ldc@ldc.upenn.edu</b></a><br> &copy; 2013 <A    HREF="http://www.ldc.upenn.edu">
+
+    <b>Linguistic Data Consortium</b></a>,
+    <a href="http://www.upenn.edu">
+
+    <b>Trustees of the University of Pennsylvania</b></a>. All Rights Reserved.
+    </p>
+
+</body>
+</html>

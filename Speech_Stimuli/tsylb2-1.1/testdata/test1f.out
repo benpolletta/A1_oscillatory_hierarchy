@@ -1,0 +1,112 @@
+
+ Program TSYLB2 export version 1.0.
+ Tests Syllabification.
+
+ Input parameter values are:
+   native/native+foreign switch  = -f
+   pcodeset file  name = 'phon1ax.pcd'
+   db_level = 0
+ Name of pcodeset is: 'phon1ax.pcd'
+
+ Enter ASCII phone string:  Basic pron is /# [ b '1 iy ] [ t '0 ax r ] #/
+
+
+ No. of prons = 3
+ They are:
+ #  Pronunciation ................         Rate  Lects
+ 1 /# [ b '1 iy ] [ t '0 ax r ] #       /  <3      0
+ 2 /# [ b '1 iy t ] [ '0 ax r ] #       /  >2      0
+ 3 /# [ b '1 iy [ t ] '0 ax r ] #       /  >3      0
+
+ Enter ASCII phone string:  Basic pron is /# [ '1 ae f ] [ t '0 ax r ] #/
+
+
+ No. of prons = 2
+ They are:
+ #  Pronunciation ................         Rate  Lects
+ 1 /# [ '1 ae f ] [ t '0 ax r ] #       /  <4      0
+ 2 /# [ '1 ae [ f ] t '0 ax r ] #       /  >3      0
+
+ Enter ASCII phone string:  Basic pron is /# [ k '1 aa nx ] [ g r '0 ax s ] #/
+
+
+ No. of prons = 2
+ They are:
+ #  Pronunciation ................         Rate  Lects
+ 1 /# [ k '1 aa nx ] [ g r '0 ax s ] #  /  <4      0
+ 2 /# [ k '1 aa [ nx ] g r '0 ax s ] #  /  >3      0
+
+ Enter ASCII phone string:  Basic pron is /# [ '1 ae t ] k [ t '0 ih n ] #/
+
+
+ No. of prons = 1
+ They are:
+ #  Pronunciation ................         Rate  Lects
+ 1 /# [ '1 ae t ] k [ t '0 ih n ] #     /  >0      0
+
+ Enter ASCII phone string:  Basic pron is /# [ b '1 aa ] [ s t '0 ax n ] #/
+
+
+ No. of prons = 3
+ They are:
+ #  Pronunciation ................         Rate  Lects
+ 1 /# [ b '1 aa ] [ s t '0 ax n ] #     /  <3      0
+ 2 /# [ b '1 aa s ] [ t '0 ax n ] #     /  >2      0
+ 3 /# [ b '1 aa [ s ] t '0 ax n ] #     /  >3      0
+
+ Enter ASCII phone string:  Basic pron is /# [ hh '1 ae ] [ p '0 iy ] #/
+
+
+ No. of prons = 3
+ They are:
+ #  Pronunciation ................         Rate  Lects
+ 1 /# [ hh '1 ae ] [ p '0 iy ] #        /  <3      0
+ 2 /# [ hh '1 ae p ] [ '0 iy ] #        /  >2      0
+ 3 /# [ hh '1 ae [ p ] '0 iy ] #        /  >3      0
+
+ Enter ASCII phone string:  Basic pron is /# [ '0 ax ] [ p '1 ih r ] #/
+
+
+ No. of prons = 1
+ They are:
+ #  Pronunciation ................         Rate  Lects
+ 1 /# [ '0 ax ] [ p '1 ih r ] #         /  >0      0
+
+ Enter ASCII phone string:  Basic pron is /# [ z '1 ih p f ] #/
+
+
+ No. of prons = 1
+ They are:
+ #  Pronunciation ................         Rate  Lects
+ 1 /# [ z '1 ih p f ] #                 /  >0      0
+
+ Enter ASCII phone string:  Basic pron is /# [ v '2 ay ] [ s p r '1 eh ] [ z '0 ix ] [ d '0 ix n t ] #/
+
+
+ No. of prons = 3
+ They are:
+ #  Pronunciation ................         Rate  Lects
+ 1 /# [ v '2 ay ] [ s p r '1 eh ] [ z '0 ix ] [ d '0 ix n t ] #/  <3      0
+ 2 /# [ v '2 ay ] [ s p r '1 eh z ] [ '0 ix d ] [ '0 ix n t ] #/  >2      0
+ 3 /# [ v '2 ay ] [ s p r '1 eh [ z ] '0 ix [ d ] '0 ix n t ] #/  >3      0
+
+ Enter ASCII phone string:  Basic pron is /# [ v '2 ay s ] # [ p r '1 eh ] [ z '0 ix ] [ d '0 ix n t ] #/
+
+
+ No. of prons = 3
+ They are:
+ #  Pronunciation ................         Rate  Lects
+ 1 /# [ v '2 ay s ] # [ p r '1 eh ] [ z '0 ix ] [ d '0 ix n t ] #/  <3      0
+ 2 /# [ v '2 ay s ] # [ p r '1 eh z ] [ '0 ix d ] [ '0 ix n t ] #/  >2      0
+ 3 /# [ v '2 ay s ] # [ p r '1 eh [ z ] '0 ix [ d ] '0 ix n t ] #/  >3      0
+
+ Enter ASCII phone string:  Basic pron is /# [ '1 ae d ] [ m r '0 ix l ] #/
+
+
+ No. of prons = 1
+ They are:
+ #  Pronunciation ................         Rate  Lects
+ 1 /# [ '1 ae d ] [ m r '0 ix l ] #     /  >0      0
+
+ Enter ASCII phone string: 
+ Quitting now.  Bye.
