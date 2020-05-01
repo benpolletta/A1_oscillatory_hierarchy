@@ -86,7 +86,7 @@ end
 if include_NG
     i=i+1;
     spec.connections(i).direction = 'NG->NG';                  
-    spec.connections(i).mechanism_list = {'IBaIBdbiSYNseed','iGABABAustin'};
+    spec.connections(i).mechanism_list = {'IBaIBdbiSYNseed','iGABABseed'};
     spec.connections(i).parameters = {'g_SYN',gGABAa_ngng,'E_SYN',EGABA,'tauDx',tauGABAad,'tauRx',tauGABAar,'fanout',inf,'IC_noise',0,'g_SYN_hetero',gsyn_hetero,...
         'gGABAB',gGABAb_ngng,'EGABAB',EGABA,'tauGABABd',tauGABAbd,'tauGABABr',tauGABAbr,'gGABAB_hetero',gsyn_hetero,  ...
         'TmaxGABAB',TmaxGABAB ...
@@ -97,10 +97,11 @@ end
 if include_NG && include_RS
     i=i+1;
     spec.connections(i).direction = 'NG->RS';                  
-    spec.connections(i).mechanism_list = {'IBaIBdbiSYNseed','iGABABAustin'};
-    spec.connections(i).parameters = {'g_SYN',gGABAa_ngrs,'E_SYN',EGABA,'tauDx',tauGABAad,'tauRx',tauGABAar,'fanout',inf,'IC_noise',0,'g_SYN_hetero',gsyn_hetero,...
+    spec.connections(i).mechanism_list = {'IBaIBdbiSYNseed','iGABABseed'};
+    spec.connections(i).parameters = {'g_SYN',gGABAa_ngrs,'E_SYN',EGABA,'tauDx',tauGABAad,...
+        'tauRx',tauGABAar,'fanout',inf,'IC_noise',0,'g_SYN_hetero',gsyn_hetero,...
         'gGABAB',gGABAb_ngrs,'EGABAB',EGABA,'tauGABABd',tauGABAbd,'tauGABABr',tauGABAbr,'gGABAB_hetero',gsyn_hetero, ...
-        'TmaxGABAB',TmaxGABAB ...
+        %'TmaxGABAB',TmaxGABAB ...
         };
 end
 
@@ -108,7 +109,7 @@ end
 if include_NG && include_FS
     i=i+1;
     spec.connections(i).direction = 'NG->FS';                  
-    spec.connections(i).mechanism_list = {'IBaIBdbiSYNseed','iGABABAustin'};
+    spec.connections(i).mechanism_list = {'IBaIBdbiSYNseed','iGABABseed'};
     spec.connections(i).parameters = {'g_SYN',gGABAa_ngfs,'E_SYN',EGABA,'tauDx',tauGABAad,'tauRx',tauGABAar,'fanout',inf,'IC_noise',0,'g_SYN_hetero',gsyn_hetero,...
         'gGABAB',gGABAb_ngfs,'EGABAB',EGABA,'tauGABABd',tauGABAbd,'tauGABABr',tauGABAbr,'gGABAB_hetero',gsyn_hetero, ...
         'TmaxGABAB',TmaxGABAB ...
@@ -150,7 +151,7 @@ if include_RS && include_FS
         };
 end
 
-% % RS->FS synaptic connection
+% % RS->LTS synaptic connection
 if include_RS && include_LTS
     i=i+1;
     spec.connections(i).direction = 'RS->LTS';
