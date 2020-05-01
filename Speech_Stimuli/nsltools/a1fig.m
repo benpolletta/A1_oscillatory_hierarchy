@@ -23,7 +23,7 @@ else,
 end;
 
 if nargin,
-	set(arg, 'Name', [R2 '_' num2str(arg)], 'Colormap', a1map, ...
+	set(arg, 'Name', [R2 '_' num2str(arg.Number)], 'Colormap', a1map, ...
 		'numbertitle', 'off');
 else,
 	h = figure('Colormap', a1map, 'numbertitle', 'off');

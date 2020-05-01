@@ -17,11 +17,11 @@ function h = cor_plts(z, sv, paras, M0, BP)
 % v1.03: 16-Sep-97, colormap auto-detection
 % v1.04: 12-Apr-98, make quiver density flexible
 
-if isglobal('TICKLABEL'),
-	global TICKLABEL;
-else,
-	TICKLABEL = 'ticklabel';
-end;
+% if isglobal('TICKLABEL'),
+% 	global TICKLABEL;
+% else,
+% 	TICKLABEL = 'ticklabel';
+% end;
 
 % target cortical representaion
 [M, K] = size(z);
