@@ -3,10 +3,18 @@ function psps = rhythmic_spike(tau_d,tau_r,freq,shift,Tend,dt,onset,offset,Npop,
 %% Calculating indicators of spike times.
 % Build train of delta functions, spaced with frequency "freq"
 t=(0:dt:Tend);                            % Generate times vector.
-pulse_period = 1000/freq;
-spike_centers = (1+shift):pulse_period:Tend;
+pulse_period = 1000./freq;
+if length(freq) == 1
+    spike_centers = (1+shift):pulse_period:Tend;
+else
+    spike_centers0 = (1+shift);
+    while sum(spike_centers0) < min(offset, Tend)
+        spike_centers0 = [spike_centers0(:); pulse_period(:)];
+    end
+    spike_centers = cumsum(spike_centers0)';
+end
 spike_centers(spike_centers < onset) = [];
-spike_centers(spike_centers > offset) = [];
+spike_centers(spike_centers > min(offset, Tend)) = [];
 
 no_inputs = inputs_per_cell*Npop;
 

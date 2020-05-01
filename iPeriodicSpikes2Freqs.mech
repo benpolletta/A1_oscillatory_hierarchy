@@ -1,0 +1,28 @@
+%% iPeriodicSpikes1Fast.mech
+
+% Spike train properties
+gSpike2F = .1;
+ES2F = 0;
+tau_d2F = 5; % decay time, in ms
+tau_r2F = .5; % rise time, in ms
+Sfreq1 = 1.5; % in Hz
+noCycles1 = 10;
+Sfreq2 = 3; % in Hz
+noCycles2 = 5;
+S2Fshift = 0; % in ms
+S2Finputs_per_cell = 1;
+% Time series properties
+Tend = T(end); 	    % ms, max simulation duration
+dt = 0.01;        % ms, time step duration
+S2Fonset = 0;    % ms, onset time
+S2Foffset = Inf;   % ms, offset time
+
+S2Fjitter = 1000/max(Sfreq1,Sfreq2)*.01; % in ms
+SfreqVec = Sfreq1*(1:(noCycles1+noCycles2)<=noCycles1)+Sfreq2*(1:(noCycles1+noCycles2)>noCycles1);
+psp = rhythmic_spike(tau_d2F,tau_r2F,SfreqVec,S2Fshift,Tend,dt,S2Fonset,S2Foffset,Npop,S2Finputs_per_cell,S2Fjitter)
+
+% Functions
+input(X) = psp(k,:)
+Ispike(X) = gSpike2F*input(X).*(X-ES2F)
+
+@current += -Ispike(X)
